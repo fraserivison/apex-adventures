@@ -1,32 +1,26 @@
-/* Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap')
 
-/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-}
 
-/* Header */
+    /* Header */
 header {
-    background-color: rgb(33, 125, 237);
+    background-color: rgb(134, 223, 255);
 }
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: rgb(220, 242, 249);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: rgb(64, 193, 235);
+    background-color: rgb(100, 190, 250);
 }
