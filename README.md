@@ -16,6 +16,8 @@ CTA at the bottom of the Home and Shark Facts pages to redirect customers to the
 
 ## Testing
 
+## Bugs
+
 ## Deployment
 
 ## Credits
