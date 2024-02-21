@@ -8,6 +8,12 @@ The goal of the site is to establish an immersive and dependable platform with e
 
 ## Features
 
+Navigation Bar featured on every page
+
+Footer with links to social media platforms
+
+CTA at the bottom of the Home and Shark Facts pages to redirect customers to the booking page.
+
 ## Testing
 
 ## Deployment
