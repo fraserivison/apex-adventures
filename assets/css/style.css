@@ -16,10 +16,14 @@ header {
     background-color: rgb(134, 223, 255);
 }
 
+header a {
+    text-decoration: none;
+    color: inherit
+}
+
 /* Main content */
 main {
     background-color: rgb(220, 242, 249);
-    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
