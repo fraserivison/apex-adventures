@@ -14,6 +14,13 @@ Footer with links to social media platforms
 
 CTA at the bottom of the Home and Shark Facts pages to redirect customers to the booking page.
 
+## Technologies Used
+
+HTML 5
+CSS
+Google Fonts
+Balsamiq Wireframes
+
 ## Testing
 
 ## Bugs
