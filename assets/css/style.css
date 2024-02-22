@@ -41,6 +41,13 @@ main {
     background: url(../images/hero-1.jpeg) no-repeat left center/cover;
 }
 
+/* Gallery */
+#photo-column img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+
 /* Footer */
 footer {
     background-color: aliceblue;
