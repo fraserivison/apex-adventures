@@ -36,6 +36,13 @@ main {
     flex: 1 0 auto;
 }
 
+/* Shark Image on Home Page */
+#hero-1 {
+    height: 500px;
+    max-width: 100%;
+    background: url(../images/hero-1.jpeg) no-repeat center center/cover;
+}
+
 /* Footer */
 footer {
     background-color: aliceblue;
