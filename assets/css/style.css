@@ -8,6 +8,7 @@ body {
     font-family: 'Rubik', sans-serif;
     color: #4a4747;
     margin: 0;
+    
 }
     
 
@@ -37,15 +38,16 @@ main {
 
 /* Footer */
 footer {
-    background-color: rgb(100, 190, 250);
+    background-color: aliceblue;
+    
 }
 /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
 #social-networks {
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0px;
     display: flex;
     justify-content: space-evenly;
-    list-style-type: none;
+    list-style-type: none; 
 }
 
 /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
