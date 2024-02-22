@@ -28,3 +28,7 @@ Balsamiq Wireframes
 ## Deployment
 
 ## Credits
+
+The code to make the social media tabs in the footer are from [Youtube] (https://www.youtube.com/watch?v=_CEJZr8-OmY)
+
+The icons in the footer are from [Font Awesome] (https://fontawesome.com/kits)
