@@ -26,6 +26,10 @@ Balsamiq Wireframes
 ## Bugs
 
 ## Deployment
+The site was deployed to GitHub pages. I used Gitpod as the development environment and commmited all the changes in thte terminal. The steps to deploy the site are as follows:
+
+Live link to site:
+
 
 ## Credits
 
