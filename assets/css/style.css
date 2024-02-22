@@ -39,17 +39,18 @@ main {
 footer {
     background-color: rgb(100, 190, 250);
 }
-
+/* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
 #social-networks {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
+/* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
+    font-size: 150%;
+    padding: 10%;
     color: #4a4747;
 }
