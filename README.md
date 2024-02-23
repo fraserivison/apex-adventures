@@ -11,6 +11,7 @@ The goal of the site is to establish an immersive and dependable platform with e
 Navigation Bar featured on every page
 
 Gallery page with testimonials
+Hover feature to make sharks look like they're coming out
 
 CTA at the bottom of the Home and Shark Facts pages to redirect customers to the booking page.
 
@@ -36,6 +37,8 @@ Live link to site:(https://fraserivison.github.io/apex-adventures/)
 
 ## Credits
 
-The code to make the social media tabs in the footer are from [Youtube] (https://www.youtube.com/watch?v=_CEJZr8-OmY)
+The code to make the social media tabs in the footer is from [Youtube] (https://www.youtube.com/watch?v=_CEJZr8-OmY)
 
 The icons in the footer are from [Font Awesome] (https://fontawesome.com/kits)
+
+Part of the code for the styling of the images on the gallery.html is from [W3Schools] (https://www.w3schools.com/css/css3_images.asp)
