@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body {
-    min-height: 175vh;
+    min-height: 150vh;
     display: flex;
     flex-direction: column;
     font-family: 'Rubik', sans-serif;
     color: #4a4747;
-    margin: 0;
+    margin: 0px;
 }
     
     /* Header */
@@ -59,21 +59,20 @@ main {
 /* Footer */
 footer {
     background-color: aliceblue;
-    
 }
+
 /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
 #social-networks {
-    text-align: center;
-    padding: 20px 0px;
     display: flex;
-    justify-content: space-evenly;
-    list-style-type: none; 
-
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 20px;
 }
 
 /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
 #social-networks i {
     font-size: 150%;
-    padding: 10%;
+    padding: 5%;
     color: #4a4747;
+    
 }
