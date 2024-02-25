@@ -33,17 +33,20 @@
     <main>
         <!-- Booking Section -->
         <h2>Book a trip today!</h2>
-        <p>Make a request here and our team will get back to you with some avialale dates! It's always weather dependant to go out and see the sharks so the larger your range, the better!</p>
+        <p>Let us know the month you're available and someone from our team will get back to you with some dates! It's always weather dependant to go out and see the sharks so a broad range really helps!</p>
         <section id="booking"></section>
         <form id="booking-form" method="POST">
             <!-- Name -->
-            <label for="name">Your Name:</label><br>
+            <label for="name">What's your name?:</label><br>
             <input type="text" id="name" name="name" placeholder="Joe Bloggs" required><br>
             <!-- Email -->
-            <label for="email">Your Email:</label><br>
+            <label for="email">What's your email?:</label><br>
             <input type="email" id="email" name="email" placeholder="joebloggs1@gmail.com" required><br>
+            <!-- Number of People -->
+            <label for="people">How many are coming?:</label><br>
+            <input type="number" id="people" name="people" min="0" max="8" placeholder="2" required><br>
             <!-- Date -->
-            <label for="date">Your Availability:</label>
+            <label for="date">What month is best?:</label>
             <select id="date" name="date">
                 <option seclected>March</option>
                 <option>April</option>
@@ -52,9 +55,6 @@
                 <option>July</option>
                 <option>August</option>
                 <option>September</option>
-                <option>October</option>
-                <option>November</option>
-                <option>December</option>
         </form>
          
     
