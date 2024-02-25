@@ -30,6 +30,8 @@ Balsamiq Wireframes
 ## Bugs
 Potential bug in the footer- not able to space the icons evenly using normal code so have used gap: 20px to fix issue to the icons appear center on all screen sizes.
 
+Images on gallery.html sometimes won't appear and just the alt text will.
+
 ## Deployment
 The site was deployed to GitHub pages. I used Gitpod as the development environment and commmited all the changes in thte terminal. The steps to deploy the site are as follows:
 
