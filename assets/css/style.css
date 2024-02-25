@@ -26,6 +26,11 @@ h1 {
 
 #navbar {
     list-style-type: none;
+    background-color: rgb(220, 242, 249);
+}
+
+li {
+    display: inline;
 }
 
 /* Main content */
