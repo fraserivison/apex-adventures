@@ -24,8 +24,13 @@ h1 {
     font-family: 'Chelsea Market', sans-serif;
 }
 
+
+
 #navbar {
     list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
     background-color: rgb(220, 242, 249);
 }
 

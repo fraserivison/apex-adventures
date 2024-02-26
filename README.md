@@ -17,7 +17,7 @@ CTA at the bottom of the Home and Shark Facts pages to redirect customers to the
 
 Footer with links to social media platforms
 
-Booking page
+Booking page, submit button goes to (https://www.sharktrust.org/)
 
 
 ## Technologies Used
