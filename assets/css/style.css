@@ -97,8 +97,8 @@ figure.item {
     width: 310px;
 }
 img {
-    width: 300px;
-    height: 225px;
+    max-width: 300px;
+    max-height: 225px;
     box-shadow: 0 0 5px 0 #4a4747; 
 }
 .caption {
@@ -191,16 +191,26 @@ input:hover {
     box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
 }
 
-/* form div {
-    margin-top: 1rem;
+input[type="submit"] {
+    background-color: #4a4747;
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
 }
 
-form {
-    width: 30em;
-    max-width: 90%;
-    margin: 0 auto;
+input[type="submit"]:hover {
+    background-color: #7f7d7d;
 }
-*/
 
 
 /* Footer */
