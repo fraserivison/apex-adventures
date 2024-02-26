@@ -74,18 +74,19 @@ main {
     box-shadow: 0 0 2px 0 #4a4747;
 }
 
+.aside,
+#hero-1 {
+    margin: 30px 60px;
+}
+
 #hero-1 {
     height: 500px;
     max-width: 100%;
     background: url(../images/hero-1.jpeg) no-repeat left center/cover;
-    box-shadow: 0 0 5px 0 #4a4747; 
+    box-shadow: 0 0 5px 0 #4a4747;
 }
 
-.aside {
-    margin: 30px 60px;
-}
-
-/* Meet the team
+/* Meet The Team Section
 /* code taken from https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
 figure.item {
     /* To correctly align image, regardless of content height: */
@@ -97,8 +98,8 @@ figure.item {
     width: 310px;
 }
 img {
-    max-width: 300px;
-    max-height: 225px;
+    max-width: 350px;
+    max-height: 275px;
     box-shadow: 0 0 5px 0 #4a4747; 
 }
 .caption {
@@ -121,6 +122,17 @@ h2 {
     font-size: 2em;
     text-transform: uppercase;
 }
+
+/* 2nd Main Picture on Home Page */
+#main-1 {
+    height: 500px;
+    max-width: 100%;
+    background: url(../images/main-1.jpeg) no-repeat left center/cover;
+    box-shadow: 0 0 5px 0 #4a4747;
+}
+
+
+
 /* Shortcut to Booking Page */
 .booking a {
     font-size: 100%;
@@ -179,7 +191,7 @@ h2 {
 }
 
 /* Booking Form */
-/* code below for the Booking Form taken from https://www.programiz.com/css/form-styling
+/* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
 input{
     width: 100%;
     padding: 12px;
