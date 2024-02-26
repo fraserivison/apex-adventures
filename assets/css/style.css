@@ -90,13 +90,7 @@ main {
     height: auto;
     vertical-align: middle;
     border-radius: 5px;
-
-#photo-column:after {
-        content: "";
-        flex-basis: 350px;
-}
       
-
 }
 #photo-column > li {
     position: relative;
