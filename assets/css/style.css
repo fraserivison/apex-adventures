@@ -31,6 +31,7 @@ header a {
 }
 
 /* Navigation Bar */
+/* code for the nav bar partly taken from https://codepen.io/maheshambure21/pen/QwXaRw */
 #navbar {
     list-style-type: none;
     padding: 5px;
@@ -38,14 +39,13 @@ header a {
     justify-content: space-evenly;
     background-color: rgb(220, 242, 249);
     box-shadow: 0 0 3px 0 #4a4747; 
+    font-size: 18px;
 }
-
 
 li {
     display: inline;
 }
 
-/* code partly taken from https://codepen.io/maheshambure21/pen/QwXaRw */
 #navbar li a {
   position: relative;
 }
@@ -82,7 +82,7 @@ main {
 #hero-1 {
     height: 500px;
     max-width: 100%;
-    background: url(../images/hero-1.jpeg) no-repeat left center/cover;
+    background: url(../images/hero-1.webp) no-repeat left center/cover;
     box-shadow: 0 0 5px 0 #4a4747;
 }
 
@@ -127,7 +127,7 @@ h2 {
 #main-1 {
     height: 500px;
     max-width: 100%;
-    background: url(../images/main-1.jpeg) no-repeat left center/cover;
+    background: url(../images/main-2.jpg) no-repeat left center/cover;
     box-shadow: 0 0 5px 0 #4a4747;
 }
 
