@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     font-family: 'Rubik', sans-serif;
     color: #4a4747;
-    margin: 0px;
+    margin: 0;
 }
     
 /* Header */
@@ -74,6 +74,10 @@ main {
     height: 500px;
     max-width: 100%;
     background: url(../images/hero-1.jpeg) no-repeat left center/cover;  
+}
+
+.aside {
+    margin: 30px 60px;
 }
 
 /* Gallery */
