@@ -46,6 +46,6 @@ The code to make the social media tabs in the footer is from [Youtube] (https://
 
 The icons in the footer are from [Font Awesome] (https://fontawesome.com/kits)
 
-Part of the code for the styling of the images on the gallery.html is from [W3Schools] (https://www.w3schools.com/css/css3_images.asp)
+Code for the styling of the images and overlay of text on the gallery.html is from [LogRocket] (https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
 
 Part of the code for the styling of the Navigation Bar is from [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)

@@ -20,6 +20,12 @@ header a {
     color: inherit
 }
 
+#logo {
+    font-size: 250%;
+    padding: 5px;
+    text-align: center;
+}
+
 h1 {
     font-family: 'Chelsea Market', sans-serif;
 }
@@ -71,17 +77,16 @@ main {
 }
 
 /* Gallery */
-/* code partly taken from https://www.w3schools.com/css/css3_images.asp */
-
+/* code below for the Gallery taken from https://blog.logrocket.com/responsive-image-gallery-css-flexbox/ */
 #photo-column {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     justify-content: center;
     gap: 10px;
 }
 
 #photo-column > li {
-    flex-basis: 350px; /* width: 350px; */
+    flex-basis: 350px; 
 }
 
 #photo-column li img {
@@ -89,9 +94,9 @@ main {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
-    border-radius: 5px;
-      
+    border-radius: 5px;    
 }
+
 #photo-column > li {
     position: relative;
     cursor: pointer;
@@ -108,29 +113,18 @@ main {
     transition: all 0.2s 0.1s ease-in-out;
     color: #fff;
     border-radius: 5px;
-    /* center overlay text */
+    
     display: flex;
     align-items: center;
-    justify-content: center;
-  }
-
+    justify-content: center; 
+    text-align: center;
+    font-size: small;
+}
 
 #photo-column li:hover .overlay {
     transform: scale(1);
-  }
-
-
-/* #photo-column img {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
 }
 
-#photo-column img:hover {
-    transform: scale(1.25);
-}
 
 
 /* Footer */
