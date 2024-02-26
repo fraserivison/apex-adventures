@@ -8,6 +8,7 @@ body {
     font-family: 'Rubik', sans-serif;
     color: #4a4747;
     margin: 0;
+    line-height: 1.6;
 }
     
 /* Header */
@@ -95,12 +96,12 @@ figure.item {
 img {
     width: 300px;
     height: 300px;
-    background-color: grey;
 }
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
     padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -109,8 +110,6 @@ figure.item {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: auto;  
-    margin-right: auto;  
 }
 }
 
