@@ -73,7 +73,8 @@ main {
 #hero-1 {
     height: 500px;
     max-width: 100%;
-    background: url(../images/hero-1.jpeg) no-repeat left center/cover;  
+    background: url(../images/hero-1.jpeg) no-repeat left center/cover;
+    box-shadow: 0 0 5px 0 #4a4747; 
 }
 
 .aside {
