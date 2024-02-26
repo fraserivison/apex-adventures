@@ -229,6 +229,21 @@ input[type="submit"] {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
 }
+ /* Map on Booking Page */
+ /* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+    margin: 20px 50px;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 
 /* Footer */
 footer {
