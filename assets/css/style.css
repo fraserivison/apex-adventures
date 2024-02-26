@@ -36,6 +36,7 @@ header a {
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(220, 242, 249);
+    box-shadow: 0 0 3px 0 #4a4747; 
 }
 
 
@@ -95,6 +96,7 @@ figure.item {
 img {
     width: 300px;
     height: 300px;
+    box-shadow: 0 0 5px 0 #4a4747; 
 }
 .caption {
     /* Make the caption a block so it occupies its own line. */
@@ -178,6 +180,7 @@ h2 {
 /* Footer */
 footer {
     background-color: aliceblue;
+    box-shadow: 0 0 2px 0 #4a4747; 
 }
 
 /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
