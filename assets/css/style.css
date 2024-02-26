@@ -22,10 +22,11 @@ header a {
 }
 
 #logo {
-    font-size: 400%;
+    font-size: 200%;
     padding: 2px;
     text-align: center;
     font-family: 'Chelsea Market', sans-serif;
+    text-transform: uppercase;
     
 }
 
@@ -48,6 +49,7 @@ li {
 #navbar li a {
   position: relative;
 }
+
 #navbar li a:after {
   position: absolute;
   bottom: 0;
@@ -69,6 +71,7 @@ li {
 main {
     background-color: rgb(220, 242, 249);
     flex: 1 0 auto;
+    box-shadow: 0 0 2px 0 #4a4747;
 }
 
 #hero-1 {
@@ -95,13 +98,13 @@ figure.item {
 }
 img {
     width: 300px;
-    height: 300px;
+    height: 225px;
     box-shadow: 0 0 5px 0 #4a4747; 
 }
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -118,12 +121,13 @@ h2 {
     font-size: 2em;
     text-transform: uppercase;
 }
-
+/* Shortcut to Booking Page */
 .booking a {
-    font-size: 200%;
+    font-size: 100%;
     text-align: center;
     text-decoration: none;
-    color: inherit
+    color: inherit;
+    text-transform: uppercase;
 }
 
 /* Gallery */
@@ -163,7 +167,6 @@ h2 {
     transition: all 0.2s 0.1s ease-in-out;
     color: #fff;
     border-radius: 5px;
-    
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -175,6 +178,29 @@ h2 {
     transform: scale(1);
 }
 
+/* Booking Form */
+input{
+    width: 100%;
+    padding: 12px;
+    margin: 20px 0;
+    border: 2px solid rgba(57, 57, 57, 0.502);
+    border-radius: 10px;
+}
+
+input:hover {
+    box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
+}
+
+/* form div {
+    margin-top: 1rem;
+}
+
+form {
+    width: 30em;
+    max-width: 90%;
+    margin: 0 auto;
+}
+*/
 
 
 /* Footer */

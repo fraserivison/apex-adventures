@@ -44,15 +44,22 @@
             <form id="booking-form" method="POST"
                 action="https://www.sharktrust.org/?gad_source=1&gclid=Cj0KCQiA5-uuBhDzARIsAAa21T-7chJb2JllLcVtL1nocDqPxXGt2ANYSI5XqCTMVgCLGfVEyOTe9PwaAo3dEALw_wcB">
                 <!-- Name -->
+                <div>
                 <label for="name">What's your name?:</label><br>
                 <input type="text" id="name" name="name" placeholder="Joe Bloggs" required><br>
+                </div>
                 <!-- Email -->
+                <div>
                 <label for="email">What's your email?:</label><br>
                 <input type="email" id="email" name="email" placeholder="joebloggs1@gmail.com" required><br>
+                </div>
                 <!-- Number of People -->
+                <div>
                 <label for="people">How many are coming?:</label><br>
                 <input type="number" id="people" name="people" min="0" max="8" placeholder="2" required><br>
+                </div>
                 <!-- Date -->
+                <div>
                 <label for="date">What month is best?:</label>
                 <select id="date" name="date" required>
                     <option selected>March</option>
@@ -63,6 +70,7 @@
                     <option>August</option>
                     <option>September</option>
                 </select>
+                </div>
                 <!-- Submit -->
                 <div>
                     <input type="submit" value="Submit">
