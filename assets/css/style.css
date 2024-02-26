@@ -200,7 +200,6 @@ input[type="submit"] {
     border-radius: 5px;
     font-weight: bold;
     font-size: 18px;
-    font-family: "Rubik", sans-serif;
     color: white;
     margin-top: 30px;
     padding: 20px;
@@ -212,6 +211,10 @@ input[type="submit"]:hover {
     background-color: #7f7d7d;
 }
 
+#date,
+input[type="submit"] {
+    font-family: 'Rubik', sans-serif;
+}
 
 /* Footer */
 footer {
