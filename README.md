@@ -52,4 +52,4 @@ Code for the styling of the images and overlay of text on the gallery.html is fr
 
 Part of the code for the styling of the Navigation Bar is from [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)
 
-Code for the column layout taken from [W3schools](https://www.w3schools.com/howto/howto_css_three_columns.asp)
+Code for the "Meet the team" section is from [StackOverflow](https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css)

@@ -81,8 +81,8 @@ main {
     margin: 30px 60px;
 }
 
-/* code taken from https://www.w3schools.com/howto/howto_css_three_columns.asp */
-
+/* Meet the team
+/* code taken from https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
 figure.item {
     /* To correctly align image, regardless of content height: */
     vertical-align: top;
@@ -90,37 +90,29 @@ figure.item {
     /* To horizontally center images and caption */
     text-align: center;
     /* The width of the container also implies margin around the images. */
-    width: 120px;
+    width: 310px;
 }
 img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background-color: grey;
 }
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
+    padding-top: 10px;
 }
 
-
-/*
-.column {
-    float: left;
-    width: 33.33%;
-}
-  
-#team:after {
-    content: "";
-    display: table;
-    clear: both;
-} */
-
-@media screen and (max-width: 600px) {
-.column {
+@media only screen and (max-width: 400px) {
+figure.item {
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
+    margin-left: auto;  
+    margin-right: auto;  
 }
 }
-
 
 h2 {
     font-size: 2em;
