@@ -81,6 +81,27 @@ main {
     margin: 30px 60px;
 }
 
+/* code taken from https://www.w3schools.com/howto/howto_css_three_columns.asp */
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+/* Clear floats after the columns */
+#team:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    }
+}
+
+
 h2 {
     font-size: 2em;
     text-transform: uppercase;

@@ -19,6 +19,8 @@ Footer with links to social media platforms
 
 Booking page, submit button goes to (https://www.sharktrust.org/)
 
+Responsive Layout: Meet the Team Section
+
 
 ## Technologies Used
 
@@ -49,3 +51,5 @@ The icons in the footer are from [Font Awesome] (https://fontawesome.com/kits)
 Code for the styling of the images and overlay of text on the gallery.html is from [LogRocket] (https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
 
 Part of the code for the styling of the Navigation Bar is from [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)
+
+Code for the column layout taken from [W3schools](https://www.w3schools.com/howto/howto_css_three_columns.asp)
