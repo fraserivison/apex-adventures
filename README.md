@@ -13,7 +13,7 @@ Navigation Bar featured on every page, interactive.
 Gallery page with testimonials
 Hover feature to make sharks look like they're coming out
 
-CTA at the bottom of the Home and Shark Facts pages to redirect customers to the booking page.
+CTA at the bottom of the Home and Gallery pages to redirect customers to the booking page.
 
 Footer with links to social media platforms
 

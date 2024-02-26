@@ -22,14 +22,13 @@ header a {
 }
 
 #logo {
-    font-size: 250%;
-    padding: 5px;
+    font-size: 400%;
+    padding: 2px;
     text-align: center;
+    font-family: 'Chelsea Market', sans-serif;
+    
 }
 
-h1 {
-    font-family: 'Chelsea Market', sans-serif;
-}
 /* Navigation Bar */
 #navbar {
     list-style-type: none;
@@ -116,6 +115,13 @@ figure.item {
 h2 {
     font-size: 2em;
     text-transform: uppercase;
+}
+
+.booking a {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+    color: inherit
 }
 
 /* Gallery */
