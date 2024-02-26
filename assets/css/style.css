@@ -10,7 +10,7 @@ body {
     margin: 0px;
 }
     
-    /* Header */
+/* Header */
 header {
     background-color: rgb(134, 223, 255);
 }
@@ -23,12 +23,10 @@ header a {
 h1 {
     font-family: 'Chelsea Market', sans-serif;
 }
-
-
-
+/* Navigation Bar */
 #navbar {
     list-style-type: none;
-    padding: 0;
+    padding: 5px;
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(220, 242, 249);
@@ -37,6 +35,27 @@ h1 {
 li {
     display: inline;
 }
+
+/* code partly taken from https://codepen.io/maheshambure21/pen/QwXaRw */
+ul li a {
+  position: relative;
+}
+ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #4a4747;
+  height: 2px;
+}
+ul li a:hover:after {
+  width: 100%;
+}
+
 
 /* Main content */
 main {
