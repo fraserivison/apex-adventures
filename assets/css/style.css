@@ -82,23 +82,43 @@ main {
 }
 
 /* code taken from https://www.w3schools.com/howto/howto_css_three_columns.asp */
+
+figure.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+
+/*
 .column {
     float: left;
     width: 33.33%;
 }
   
-/* Clear floats after the columns */
 #team:after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
-/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
 .column {
     width: 100%;
-    }
+}
 }
 
 
