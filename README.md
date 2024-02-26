@@ -27,6 +27,7 @@ Responsive Layout: Meet the Team Section
 HTML 5
 CSS
 Google Fonts
+Font Awesome
 Balsamiq Wireframes
 
 ## Testing
@@ -48,8 +49,10 @@ The code to make the social media tabs in the footer is from [Youtube] (https://
 
 The icons in the footer are from [Font Awesome] (https://fontawesome.com/kits)
 
-Code for the styling of the images and overlay of text on the gallery.html is from [LogRocket] (https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
+Styling of the images and overlay of text on the gallery.html [LogRocket] (https://blog.logrocket.com/responsive-image-gallery-css-flexbox/)
 
-Part of the code for the styling of the Navigation Bar is from [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)
+Navigation Bar [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)
 
-Code for the "Meet the team" section is from [StackOverflow](https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css)
+Meet the team in index.html [StackOverflow](https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css)
+
+Booking Form [Programiz](https://www.programiz.com/css/form-styling)

@@ -179,6 +179,7 @@ h2 {
 }
 
 /* Booking Form */
+/* code below for the Booking Form taken from https://www.programiz.com/css/form-styling
 input{
     width: 100%;
     padding: 12px;
@@ -214,6 +215,7 @@ input[type="submit"]:hover {
 #date,
 input[type="submit"] {
     font-family: 'Rubik', sans-serif;
+    font-size: 16px;
 }
 
 /* Footer */
