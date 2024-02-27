@@ -90,7 +90,12 @@ main {
 /* code taken from https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
 #team {
   text-align: center;
-  padding: 10px;
+}
+
+.item {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
 }
 
 figure.item {
@@ -100,13 +105,16 @@ figure.item {
     /* To horizontally center images and caption */
     text-align: center;
     /* The width of the container also implies margin around the images. */
-    width: 310px;
+    width: 25%;
+    min-height: 100px;
+    min-width: 150px;
 }
 img {
-    max-width: 150%;
-    height: 300px;
-    box-shadow: 0 0 5px 0 #4a4747; 
+  width: 100%;
+  height: auto;
+  box-shadow: 0 0 5px 0 #4a4747;
 }
+
 .caption {
     /* Make the caption a block so it occupies its own line. */
     display: block;
@@ -114,14 +122,12 @@ img {
     padding-bottom: 20px;
 }
 
-@media only screen and (max-width: 400px) {
-figure.item {
-    display: block;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+@media only screen and (max-width: 480px) {
+    img {
     width: 100%;
-}
-}
+    }
+    }
 
 h2 {
     font-size: 2em;
