@@ -49,7 +49,7 @@ The code to make the social media tabs in the footer is from [Youtube] (https://
 
 The icons in the footer are from [Font Awesome] (https://fontawesome.com/kits)
 
-Gallery [Bootstrap] (https://bootsnipp.com/snippets/P2gor)
+Gallery [Bootsnipp] (https://bootsnipp.com/snippets/P2gor)
 
 Navigation Bar [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)
 
