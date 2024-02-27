@@ -156,7 +156,7 @@ figure.item {
 }
 
 /* Gallery */
-/* code below for the Gallery taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive */
+/* code below for the Gallery taken from https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes */
 .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -167,8 +167,6 @@ figure.item {
     max-width: 100%;
     height: 175px;
 }
-
-
 
 /* Booking Form */
 /* Main Picture on booking page */

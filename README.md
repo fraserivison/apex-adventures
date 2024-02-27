@@ -51,7 +51,7 @@ The icons in the footer are from [Font Awesome] (https://fontawesome.com/kits)
 
 Responsive Font Size [MakeUseOf] (https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.)
 
-Gallery [W3Schools] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_grid_responsive)
+Gallery [SheCodes] (https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes.)
 
 Navigation Bar [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)
 
