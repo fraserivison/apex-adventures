@@ -11,301 +11,300 @@ body {
 }
 
 
-    /* min-height: 150vh;
+/* min-height: 150vh;
     display: flex;
     flex-direction: column;
     
     
 /* Header */
-    header {
-        background-color: rgb(134, 223, 255, 0.75);
-    }
+header {
+    background-color: rgb(134, 223, 255, 0.75);
+}
 
-    header a {
-        text-decoration: none;
-        color: inherit
-    }
+header a {
+    text-decoration: none;
+    color: inherit
+}
 
-    /* font-size code from https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.*/
-    #logo,
-    h2 {
-        font-size: clamp(2rem, 5vw, 3rem);
-        padding: 10px 10px;
-        text-align: center;
-        text-shadow: 2px 2px 5px #c6c4c4;
-        font-family: 'Chelsea Market', sans-serif;
-        text-transform: uppercase;
+/* font-size code from https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.*/
+#logo,
+h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    padding: 10px 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #c6c4c4;
+    font-family: 'Chelsea Market', sans-serif;
+    text-transform: uppercase;
 
-    }
+}
 
-    /* Navigation Bar */
-    /* code for the nav bar partly taken from https://codepen.io/maheshambure21/pen/QwXaRw */
-    #navbar {
-        list-style-type: none;
-        padding: 5px;
-        display: flex;
-        justify-content: space-evenly;
-        background-color: rgb(220, 242, 249);
-        box-shadow: 0 0 3px 0#3c3939;
-        font-size: 18px;
-    }
+/* Navigation Bar */
+/* code for the nav bar partly taken from https://codepen.io/maheshambure21/pen/QwXaRw */
+#navbar {
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(220, 242, 249);
+    box-shadow: 0 0 3px 0#3c3939;
+    font-size: 18px;
+}
 
-    li {
-        display: inline;
-    }
+li {
+    display: inline;
+}
 
-    #navbar li a {
-        position: relative;
-    }
+#navbar li a {
+    position: relative;
+}
 
-    #navbar li a:after {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 0%;
-        content: '.';
-        color: transparent;
-        background: #3c3939;
-        height: 2px;
-    }
+#navbar li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #3c3939;
+    height: 2px;
+}
 
-    #navbar li a:hover:after {
-        width: 100%;
-    }
+#navbar li a:hover:after {
+    width: 100%;
+}
 
 
-    /* Main content */
-    main {
-        background-color: rgb(220, 242, 249);
-        box-shadow: 0 0 2px 0 #3c3939;
-        flex: auto;
-    }
+/* Main content */
+main {
+    background-color: rgb(220, 242, 249);
+    box-shadow: 0 0 2px 0 #3c3939;
+    flex: auto;
+}
 
-    .aside {
-        margin: 9px 50px;
-    }
+.aside {
+    margin: 9px 50px;
+}
 
-    #hero-1 {
-        height: 500px;
-        max-width: 100%;
-        background: url(../images/hero-1.webp) no-repeat left center/cover;
-        box-shadow: 0 0 5px 0 #3c3939;
-    }
+#hero-1 {
+    height: 500px;
+    max-width: 100%;
+    background: url(../images/hero-1.webp) no-repeat left center/cover;
+    box-shadow: 0 0 5px 0 #3c3939;
+}
 
-    hr.solid {
-        border-top: 3px solid #c6c4c4;;
-    }
+hr.solid {
+    border-top: 3px solid #c6c4c4;
+    ;
+}
 
-    /* Meet The Team Section
-/* code taken from https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
-    #team {
-        text-align: center;
-    }
+/* Meet The Team Section
+    /* code taken from https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
+#team {
+    text-align: center;
+}
 
-    .item {
-        padding-left: 20px;
-        padding-right: 20px;
-        margin: 0;
-    }
+.item {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
 
-    figure.item {
-        vertical-align: top;
-        display: inline-block;
-        text-align: center;
-        width: 25%;
-        min-height: 200px;
-        min-width: 250px;
-    }
+figure.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    min-height: 200px;
+    min-width: 250px;
+}
 
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px 0 #3c3939;
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 480px) {
     img {
         width: 100%;
-        height: auto;
-        box-shadow: 0 0 5px 0 #3c3939;
     }
+}
 
-    .caption {
-        /* Make the caption a block so it occupies its own line. */
-        display: block;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-
-    @media only screen and (max-width: 480px) {
-        img {
-            width: 100%;
-        }
-    }
-
-    /* 2nd Main Picture on Home Page */
-    #main-1 {
-        height: 500px;
-        max-width: 100%;
-        background: url(../images/main-2.jpg) no-repeat left center/cover;
-        box-shadow: 0 0 5px 0 #3c3939;
-    }
+/* 2nd Main Picture on Home Page */
+#main-1 {
+    height: 500px;
+    max-width: 100%;
+    background: url(../images/main-2.jpg) no-repeat left center/cover;
+    box-shadow: 0 0 5px 0 #3c3939;
+}
 
 
 
-    /* Shortcut to Booking Page */
-    .booking a {
-        font-size: 100%;
-        text-align: center;
-        text-decoration: none;
-        color: inherit;
-        text-transform: uppercase;
-        padding: 20px 5px;
-    }
+/* Shortcut to Booking Page */
+.booking a {
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    padding: 20px 5px;
+}
 
-    /* Gallery */
-    /* code below for the Gallery taken from https://bootsnipp.com/snippets/P2gor */
-    .btn:focus,
-    .btn:active,
-    button:focus,
-    button:active {
-        outline: none !important;
-        box-shadow: none !important;
-    }
+/* Gallery */
+/* code below for the Gallery taken from https://bootsnipp.com/snippets/P2gor */
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
 
-    #image-gallery .modal-footer {
-        display: block;
-      
-    }
-
-
-    .thumb {
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
+#image-gallery .modal-footer {
+    display: block;
+  
+}
 
 
-    /* Booking Form */
-    /* Main Picture on booking page */
-    #booking-1 {
-        height: 500px;
-        max-width: 100%;
-        background: url(../images/booking-1.webp) no-repeat left center/cover;
-        box-shadow: 0 0 5px 0 #3c3939;
-    }
-
-    #booking-form {
-        border-style: inset;
-        border-width: 5px;
-        padding: 10px;
-        width: 97%
-    }
-    
-    /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
-    input,
-    textarea {
-        width: 96%;
-        padding: 5px;
-        margin: 10px;
-        margin-left: 0;
-        border: 2px solid rgba(57, 57, 57, 0.502);
-        border-radius: 10px;
-    }
-
-    input:hover {
-        box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
-    }
-
-    textarea {
-        background-color: white;
-        width: 96%;
-        height: 100px;
-        padding: 5px 0;
-        box-sizing: border-box;
-        border-radius: 4px;
-    }
-
-    input[type="submit"] {
-        background-color: #3c3939;
-        width: 180px;
-        display: block;
-        margin: 0px auto;
-        border: none;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: white;
-        margin-top: 30px;
-        padding: 20px;
-        text-align: center;
-        cursor: pointer;
-    }
-
-    input[type="submit"]:hover {
-        background-color: #7f7d7d;
-    }
-
-    #date,
-    input[type="submit"] {
-        font-family: 'Rubik', sans-serif;
-        font-size: 14px;
-    }
-
-    /* Map on Booking Page */
-    /* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
-    .google-map {
-        padding-bottom: 75%;
-        position: relative;
-        margin: 20px 50px;
-        height: 0;
-        overflow: hidden;
-    }
-
-    .google-map iframe {
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        position: absolute;
-    }
-
-    /* Footer */
-    footer {
-        background-color: aliceblue;
-        box-shadow: 0 0 2px 0 #3c3939;
-    }
-
-    /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
-    #social-networks {
-        display: flex;
-        justify-content: center;
-        padding: 20px 10px;
-        gap: 20px;
-        list-style-type: none;
-    }
-
-    /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
-    #social-networks i {
-        font-size: 150%;
-        padding: 5%;
-        color: #4a4747;
-
-    }
-
-    /* success.html */
-    /* code from https://codepen.io/warrendunlop/pen/YmVKzm */
-   
-      .checkmark {
-        color: #3c3939;
-        font-size: 100px;
-        line-height: 200px;
-        margin-left:-15px;
-      }
-      .card {
-        background: white;
-        padding: 60px;
-        border-radius: 4px;
-        box-shadow: 0 2px 3px #C8D0D8;
-        display: inline-block;
-        margin: 0 auto;
-      }
+.thumb {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 
-     
+/* Booking Form */
+/* Main Picture on booking page */
+#booking-1 {
+    height: 500px;
+    max-width: 100%;
+    background: url(../images/booking-1.webp) no-repeat left center/cover;
+    box-shadow: 0 0 5px 0 #3c3939;
+}
+
+#booking-form {
+    border-style: inset;
+    border-width: 5px;
+    padding: 10px;
+    width: 97%
+}
+
+/* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
+input,
+textarea {
+    width: 96%;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0;
+    border: 2px solid rgba(57, 57, 57, 0.502);
+    border-radius: 10px;
+}
+
+input:hover {
+    box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
+}
+
+textarea {
+    background-color: white;
+    width: 96%;
+    height: 100px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #3c3939;
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7f7d7d;
+}
+
+#date,
+input[type="submit"] {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+
+/* Map on Booking Page */
+/* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
+.google-map {
+    padding-bottom: 75%;
+    position: relative;
+    margin: 20px 50px;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+/* Footer */
+footer {
+    background-color: aliceblue;
+    box-shadow: 0 0 2px 0 #3c3939;
+}
+
+/* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
+#social-networks {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 20px;
+    list-style-type: none;
+}
+
+/* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
+#social-networks i {
+    font-size: 150%;
+    padding: 5%;
+    color: #4a4747;
+
+}
+
+/* success.html */
+/* code from https://codepen.io/warrendunlop/pen/YmVKzm */
+
+.checkmark {
+    color: #3c3939;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left: -15px;
+}
+
+.card {
+    background: white;
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 0 auto;
+}
