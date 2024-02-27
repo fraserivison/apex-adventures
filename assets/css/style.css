@@ -170,7 +170,7 @@ figure.item {
 
 /* Don't Take Our Word For It... */
 /* code partly taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_testimonials */
-/* code partly taken from https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b
+/* code partly taken from https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b */
 .flex-parent-element {
     display: flex;
     width: 100%;
@@ -237,21 +237,22 @@ figure.item {
     background: url(../images/booking-1.webp) no-repeat left center/cover;
     box-shadow: 0 0 5px 0 #3c3939;
 }
-
 #booking-form {
     border-style: inset;
-    border-width: 5px;
-    padding: 10px;
-    width: 97%
+    padding: 2px;
+    width: 97%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
 input,
 textarea {
     width: 96%;
-    padding: 5px;
-    margin: 10px;
-    margin-left: 0;
+    padding: 2px;
+    margin: 5px;
     border: 2px solid rgba(57, 57, 57, 0.502);
     border-radius: 10px;
 }
@@ -264,7 +265,7 @@ textarea {
     background-color: white;
     width: 96%;
     height: 100px;
-    padding: 5px 0;
+    padding: 2px;
     box-sizing: border-box;
     border-radius: 4px;
 }
