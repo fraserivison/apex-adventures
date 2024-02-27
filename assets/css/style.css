@@ -14,15 +14,13 @@ body {
     display: flex;
     flex-direction: column;
     
-    color: #4a4747;
     
     
 }
     
 /* Header */
 header {
-    background-color: rgb(134, 223, 255);
-    padding: 5px;
+    background-color: rgb(134, 223, 255, 0.75);
 }
 
 header a {
@@ -86,9 +84,8 @@ main {
     flex: auto;
 }
 
-.aside,
-#hero-1 {
-    margin: 20px 50px;
+.aside {
+    margin: 9px 50px;
 }
 
 #hero-1 {
@@ -97,6 +94,10 @@ main {
     background: url(../images/hero-1.webp) no-repeat left center/cover;
     box-shadow: 0 0 5px 0 #3c3939;
 }
+
+hr.solid {
+    border-top: 3px solid #3c3939;
+  }
 
 /* Meet The Team Section
 /* code taken from https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
