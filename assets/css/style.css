@@ -88,6 +88,11 @@ main {
 
 /* Meet The Team Section
 /* code taken from https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
+#team {
+  text-align: center;
+  padding: 10px;
+}
+
 figure.item {
     /* To correctly align image, regardless of content height: */
     vertical-align: top;
@@ -98,8 +103,8 @@ figure.item {
     width: 310px;
 }
 img {
-    max-width: 350px;
-    max-height: 275px;
+    max-width: 150%;
+    height: 300px;
     box-shadow: 0 0 5px 0 #4a4747; 
 }
 .caption {
