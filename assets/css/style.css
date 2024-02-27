@@ -95,7 +95,7 @@ body {
     }
 
     hr.solid {
-        border-top: 3px solid #3c3939;
+        border-top: 3px solid #c6c4c4;;
     }
 
     /* Meet The Team Section
@@ -191,7 +191,7 @@ body {
     }
 
     #booking-form {
-        border-style: groove;
+        border-style: inset;
         border-width: 5px;
         padding: 10px;
         width: 97%
