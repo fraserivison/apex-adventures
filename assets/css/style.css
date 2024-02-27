@@ -237,7 +237,7 @@ input[type="submit"]:hover {
 #date,
 input[type="submit"] {
     font-family: 'Rubik', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
  /* Map on Booking Page */
  /* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
