@@ -169,7 +169,8 @@ figure.item {
 }
 
 /* Don't Take Our Word For It... */
-/* code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_testimonials */
+/* code partly taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_testimonials */
+/* code partly taken from https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b
 .flex-parent-element {
     display: flex;
     width: 100%;
