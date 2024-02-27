@@ -60,9 +60,13 @@
                 </div>
                 <!-- Date -->
                 <div>
-                    <label for="date">What month is best?</label>
+                    <label for="date">Which month is best?</label>
+                    <br>
+                    <br>
                     <select id="date" name="date" required>
-                        <option selected>March</option>
+                        <!-- code from (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option -->
+                        <option value="">--Choose a month--</option>
+                        <option>March</option>
                         <option>April</option>
                         <option>May</option>
                         <option>June</option>
@@ -70,7 +74,11 @@
                         <option>August</option>
                         <option>September</option>
                     </select>
+                    <br>
+                    <br>
                 </div>
+                    <label for="name">Any questions?</label><br>
+                    <textarea></textarea>
                 <!-- Submit -->
                 <div>
                     <input type="submit" value="Submit">

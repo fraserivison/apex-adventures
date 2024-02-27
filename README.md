@@ -55,6 +55,6 @@ Navigation Bar [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)
 
 Meet the team in index.html [StackOverflow](https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css)
 
-Booking Form [Programiz](https://www.programiz.com/css/form-styling)
+Booking Form [Programiz] (https://www.programiz.com/css/form-styling) [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
 
 Map [HubSpot] (https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
