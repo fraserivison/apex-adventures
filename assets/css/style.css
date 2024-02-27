@@ -168,14 +168,32 @@ figure.item {
     height: 240px;
 }
 
-/* Don't Take Our Word For It */
-.container {
+/* Don't Take Our Word For It... */
+/* code from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_testimonials */
+.flex-parent-element {
+    display: flex;
+    width: 100%;
+  }
+  
+  .flex-child-element {
+    flex: 1;
+    border: 2px solid blueviolet;
+    margin: 10px;
+  }
+  
+  /* .flex-child-element:first-child {
+    margin-right: 20px;
+  } */
+
+
+
+/* .container {
     border: 2px solid #ccc;
-    background-color: #eee;
+    box-shadow: 0 0 5px 0 #3c3939;
     border-radius: 5px;
     padding: 16px;
-    margin: 16px 0
-  }
+    margin: 16px 10px;
+}
   
   .container::after {
     content: "";
@@ -195,6 +213,7 @@ figure.item {
     font-size: 20px;
     margin-right: 4px;
   }
+
   
   @media (max-width: 500px) {
     .container {
@@ -206,6 +225,8 @@ figure.item {
         display: block;
     }
   }
+
+  */
 
 /* Booking Form */
 /* Main Picture on booking page */
