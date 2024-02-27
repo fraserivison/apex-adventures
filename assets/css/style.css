@@ -2,10 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body {
-    margin: 0;
     font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    color: #3c3939;
     background-image: url("../images/background-1.jpeg");
     line-height: 1.6;
+    margin: 0;
     
 
     /* min-height: 150vh;
@@ -20,6 +22,7 @@ body {
 /* Header */
 header {
     background-color: rgb(134, 223, 255);
+    padding: 5px;
 }
 
 header a {
@@ -27,10 +30,13 @@ header a {
     color: inherit
 }
 
-#logo {
-    font-size: 200%;
-    padding: 2px;
+/* font-size code from https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.*/
+#logo,
+h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    padding: 10px 10px;
     text-align: center;
+    text-shadow: 2px 2px 5px #c6c4c4;
     font-family: 'Chelsea Market', sans-serif;
     text-transform: uppercase;
     
@@ -44,7 +50,7 @@ header a {
     display: flex;
     justify-content: space-evenly;
     background-color: rgb(220, 242, 249);
-    box-shadow: 0 0 3px 0 #4a4747; 
+    box-shadow: 0 0 3px 0#3c3939; 
     font-size: 18px;
 }
 
@@ -65,7 +71,7 @@ li {
   width: 0%;
   content: '.';
   color: transparent;
-  background: #4a4747;
+  background: #3c3939;
   height: 2px;
 }
 #navbar li a:hover:after {
@@ -76,7 +82,7 @@ li {
 /* Main content */
 main {
     background-color: rgb(220, 242, 249);
-    box-shadow: 0 0 2px 0 #4a4747;
+    box-shadow: 0 0 2px 0 #3c3939;
     flex: auto;
 }
 
@@ -89,7 +95,7 @@ main {
     height: 500px;
     max-width: 100%;
     background: url(../images/hero-1.webp) no-repeat left center/cover;
-    box-shadow: 0 0 5px 0 #4a4747;
+    box-shadow: 0 0 5px 0 #3c3939;
 }
 
 /* Meet The Team Section
@@ -116,7 +122,7 @@ figure.item {
 img {
   width: 100%;
   height: auto;
-  box-shadow: 0 0 5px 0 #4a4747;
+  box-shadow: 0 0 5px 0 #3c3939;
 }
 
 .caption {
@@ -133,17 +139,12 @@ img {
     }
     }
 
-h2 {
-    font-size: 2em;
-    text-transform: uppercase;
-}
-
 /* 2nd Main Picture on Home Page */
 #main-1 {
     height: 500px;
     max-width: 100%;
     background: url(../images/main-2.jpg) no-repeat left center/cover;
-    box-shadow: 0 0 5px 0 #4a4747;
+    box-shadow: 0 0 5px 0 #3c3939;
 }
 
 
