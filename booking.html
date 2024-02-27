@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,55 +40,62 @@
         <section class="aside">
             <hr class="solid">
             <h2>Book a trip today!</h2>
-            <p>Embark on an unforgettable adventure with Apex Adventures! Simply let us know your name, email address, how many are going and then the month you're available, and our dedicated team will promptly reach out to you with a curated selection of dates for your shark cage diving experience. Given the dynamic nature of weather conditions, providing a broader range of availability ensures flexibility for the optimal day to witness the sharks in their natural habitat.</p>
-            <p>Our commitment to your safety and enjoyment is paramount. To make your experience even more enriching, feel free to ask any questions you may have. Our experienced team is here to provide insights, share their passion for marine life, and ensure you have all the information needed for a seamless and exhilarating adventure!</p>
+            <p>Embark on an unforgettable adventure with Apex Adventures! Simply let us know your name, email address,
+                how many are going and then the month you're available, and our dedicated team will promptly reach out
+                to you with a curated selection of dates for your shark cage diving experience. Given the dynamic nature
+                of weather conditions, providing a broader range of availability ensures flexibility for the optimal day
+                to witness the sharks in their natural habitat.</p>
+            <p>Our commitment to your safety and enjoyment is paramount. To make your experience even more enriching,
+                feel free to ask any questions you may have. Our experienced team is here to provide insights, share
+                their passion for marine life, and ensure you have all the information needed for a seamless and
+                exhilarating adventure!</p>
             <hr class="solid">
             <br>
             <section id="booking">
-            <form id="booking-form" method="POST"
-                action="https://fraserivison.github.io/apex-adventures/success.html">
-                <!-- Name -->
-                <div>
-                    <label for="name">What's your name?</label><br>
-                    <input type="text" id="name" name="name" placeholder="Joe Bloggs" required><br>
-                </div>
-                <!-- Email -->
-                <div>
-                    <label for="email">What's your email?</label><br>
-                    <input type="email" id="email" name="email" placeholder="joebloggs1@gmail.com" required><br>
-                </div>
-                <!-- Number of People -->
-                <div>
-                    <label for="people">How many are coming?</label><br>
-                    <input type="number" id="people" name="people" min="0" max="8" placeholder="2" required><br>
-                </div>
-                <!-- Date -->
-                <div>
-                    <label for="date">Which month is best?</label>
-                    <br>
-                    <select id="date" name="date" required>
-                        <!-- code from (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option -->
-                        <option value="">Choose a month</option>
-                        <option>March</option>
-                        <option>April</option>
-                        <option>May</option>
-                        <option>June</option>
-                        <option>July</option>
-                        <option>August</option>
-                        <option>September</option>
-                    </select>
-                    <br>
-                    <br>
-                </div>
+                <form id="booking-form" method="POST"
+                    action="https://fraserivison.github.io/apex-adventures/success.html">
+                    <!-- Name -->
+                    <div>
+                        <label for="name">What's your name?</label><br>
+                        <input type="text" id="name" name="name" placeholder="Joe Bloggs" required><br>
+                    </div>
+                    <!-- Email -->
+                    <div>
+                        <label for="email">What's your email?</label><br>
+                        <input type="email" id="email" name="email" placeholder="joebloggs1@gmail.com" required><br>
+                    </div>
+                    <!-- Number of People -->
+                    <div>
+                        <label for="people">How many are coming?</label><br>
+                        <input type="number" id="people" name="people" min="0" max="8" placeholder="2" required><br>
+                    </div>
+                    <!-- Date -->
+                    <div>
+                        <label for="date">Which month is best?</label>
+                        <br>
+                        <select id="date" name="date" required>
+                            <!-- code from (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option -->
+                            <option value="">Choose a month</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                        </select>
+                        <br>
+                        <br>
+                    </div>
                     <label for="name">Any questions?</label><br>
                     <textarea></textarea>
-                <!-- Submit -->
-                <div>
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
-        </section>
-            <!-- Map -->
+                    <!-- Submit -->
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </section>
+        <!-- Map -->
         </section>
         <div class="google-map">
             <iframe
@@ -95,11 +103,8 @@
                 width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
-
+        <br>
     </main>
-
-
     <!-- Footer -->
     <!-- code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY-->
     <footer>

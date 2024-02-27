@@ -192,15 +192,15 @@ body {
 
     #booking-form {
         border-style: groove;
-        border-width: 3px;
+        border-width: 5px;
         padding: 10px;
-        width: 95%
+        width: 97%
     }
     
     /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
     input,
     textarea {
-        width: 90%;
+        width: 96%;
         padding: 5px;
         margin: 10px;
         margin-left: 0;
@@ -214,7 +214,7 @@ body {
 
     textarea {
         background-color: white;
-        width: 90%;
+        width: 96%;
         height: 100px;
         padding: 5px 0;
         box-sizing: border-box;
@@ -230,6 +230,7 @@ body {
         border-radius: 5px;
         font-weight: bold;
         font-size: 16px;
+        text-transform: uppercase;
         color: white;
         margin-top: 30px;
         padding: 20px;
