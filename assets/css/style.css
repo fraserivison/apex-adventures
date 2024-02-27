@@ -177,7 +177,7 @@ figure.item {
   
   .flex-child-element {
     flex: 1;
-    border: 2px solid blueviolet;
+    border: 2px solid #3c3939;
     margin: 10px;
   }
   
