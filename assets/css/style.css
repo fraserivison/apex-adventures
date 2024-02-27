@@ -168,6 +168,45 @@ figure.item {
     height: 240px;
 }
 
+/* Don't Take Our Word For It */
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0
+  }
+  
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0 #3c3939;
+    filter: grayscale(100%);
+  }
+  
+  .container span {
+    font-size: 20px;
+    margin-right: 4px;
+  }
+  
+  @media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+    .container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
 /* Booking Form */
 /* Main Picture on booking page */
 #booking-1 {
