@@ -191,17 +191,19 @@ body {
     }
 
     #booking-form {
-        border-style: inset;
+        border-style: groove;
+        border-width: 3px;
         padding: 10px;
-        width: 40%
+        width: 95%
     }
     
     /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
     input,
     textarea {
-        width: 92%;
+        width: 90%;
         padding: 5px;
         margin: 10px;
+        margin-left: 0;
         border: 2px solid rgba(57, 57, 57, 0.502);
         border-radius: 10px;
     }
@@ -212,7 +214,7 @@ body {
 
     textarea {
         background-color: white;
-        width: 92%;
+        width: 90%;
         height: 100px;
         padding: 5px 0;
         box-sizing: border-box;
@@ -223,10 +225,11 @@ body {
         background-color: #3c3939;
         width: 180px;
         display: block;
+        margin: 0px auto;
         border: none;
         border-radius: 5px;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
         color: white;
         margin-top: 30px;
         padding: 20px;
@@ -247,9 +250,11 @@ body {
     /* Map on Booking Page */
     /* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
     .google-map {
-        padding-bottom: 50%;
+        padding-bottom: 75%;
         position: relative;
         margin: 20px 50px;
+        height: 0;
+        overflow: hidden;
     }
 
     .google-map iframe {
@@ -301,3 +306,5 @@ body {
         margin: 0 auto;
       }
 
+
+     
