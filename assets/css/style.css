@@ -152,7 +152,7 @@ h2 {
 }
 
 /* Gallery */
-/* code below for the Gallery taken from https://blog.logrocket.com/responsive-image-gallery-css-flexbox/ */
+/* code below for the Gallery taken from https://bootsnipp.com/snippets/P2gor */
 .btn:focus, .btn:active, button:focus, button:active {
     outline: none !important;
     box-shadow: none !important;
@@ -166,7 +166,6 @@ h2 {
     margin-top: 15px;
     margin-bottom: 15px;
   }
-
 
 
 /* Booking Form */
