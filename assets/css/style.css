@@ -7,6 +7,9 @@ body {
     color: #3c3939;
     background-image: url("../images/background-1.jpeg");
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
     
 /* Header */
@@ -158,12 +161,12 @@ figure.item {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 10px;
-  }
+}
   
-  .image-grid img {
-    width: 100%;
-    height: auto;
-  }
+.image-grid img {
+    max-width: 100%;
+    height: 175px;
+}
 
 
 
@@ -256,7 +259,9 @@ input[type="submit"] {
 footer {
     background-color: aliceblue;
     box-shadow: 0 0 2px 0 #3c3939;
+    flex-grow: 1;
 }
+
 
 /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
 #social-networks {
