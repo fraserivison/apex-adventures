@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #3c3939;
     background-image: url("../images/background-1.jpeg");
     line-height: 1.6;
@@ -182,19 +182,26 @@ body {
 
 
     /* Booking Form */
+    /* Main Picture on booking page */
     #booking-1 {
         height: 500px;
         max-width: 100%;
         background: url(../images/booking-1.webp) no-repeat left center/cover;
         box-shadow: 0 0 5px 0 #3c3939;
     }
+
+    #booking-form {
+        border-style: inset;
+        padding: 10px;
+        width: 40%
+    }
     
     /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
     input,
     textarea {
-        width: 50%;
-        padding: 12px;
-        margin: 20px 0;
+        width: 92%;
+        padding: 5px;
+        margin: 10px;
         border: 2px solid rgba(57, 57, 57, 0.502);
         border-radius: 10px;
     }
@@ -205,18 +212,17 @@ body {
 
     textarea {
         background-color: white;
-        width: 50%;
+        width: 92%;
         height: 100px;
-        padding: 10px 0;
+        padding: 5px 0;
         box-sizing: border-box;
         border-radius: 4px;
     }
 
     input[type="submit"] {
-        background-color: #4a4747;
+        background-color: #3c3939;
         width: 180px;
         display: block;
-        margin: 0px auto;
         border: none;
         border-radius: 5px;
         font-weight: bold;
@@ -257,7 +263,7 @@ body {
     /* Footer */
     footer {
         background-color: aliceblue;
-        box-shadow: 0 0 2px 0 #4a4747;
+        box-shadow: 0 0 2px 0 #3c3939;
     }
 
     /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
@@ -281,7 +287,7 @@ body {
     /* code from https://codepen.io/warrendunlop/pen/YmVKzm */
    
       .checkmark {
-        color: #9ABC66;
+        color: #3c3939;
         font-size: 100px;
         line-height: 200px;
         margin-left:-15px;

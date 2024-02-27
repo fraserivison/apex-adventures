@@ -17,7 +17,7 @@ CTA at the bottom of the Home and Gallery pages to redirect customers to the boo
 
 Footer with links to social media platforms
 
-Booking page, submit button goes to (https://www.sharktrust.org/)
+Booking page, submit button goes to success.html
 
 Responsive Layout: Meet the Team Section
 
