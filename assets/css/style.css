@@ -267,7 +267,7 @@ p {
     /* Map on Booking Page */
     /* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
     .google-map {
-        padding-bottom: 100%;
+        padding-top: 50%;
         position: relative;
         height: 0;
         overflow: hidden;
