@@ -209,11 +209,11 @@ p {
 
     #booking-form {
         padding: 2px;
-        width: 100%;
         padding-top: 10px;
     }
 
     /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
+    #date,
     input,
     textarea {
         width: 100%;
