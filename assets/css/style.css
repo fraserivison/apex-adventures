@@ -334,19 +334,45 @@ h3 {
 
     /* 404.html */
     /* <!-- code from https://codepen.io/akashrajendra/pen/JKKRvQ --> */
-    .fof{
-        display: table-cell;
-        vertical-align: middle;
-  }
+
+      
+    .error-body { 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        height: 100vh; 
+    } 
+      
+    .error-container { 
+        text-align: center; 
+        background-color: #fff; 
+        padding: 20px; 
+        border-radius: 5px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+         
+    } 
+      
+    .error-container h1 { 
+        font-size: 5rem; 
+        color: #3c3939;
+    } 
+
+    .error-home {
+    background-color: #3c3939; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 3px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+    box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
+} 
   
-  .fof h1{
-        font-size: 50px;
-        display: inline-block;
-        padding-right: 12px;
-        animation: type .5s alternate infinite;
-  }
-  
-  @keyframes type{
-        from{box-shadow: inset -3px 0px 0px #888;}
-        to{box-shadow: inset -3px 0px 0px transparent;}
-  }
+    .error-home a { 
+        text-decoration: none; 
+        color: white;
+}
+    
+      
+    
+      
+      
