@@ -91,7 +91,6 @@ main {
 
 hr.solid {
     border-top: 3px solid #c6c4c4;
-
 }
 
 /* Meet The Team Section
@@ -213,8 +212,9 @@ p {
     }
 
     /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
-    #date,
+    label,
     input,
+    #date,
     textarea {
         width: 93%;
         padding: 2px;
