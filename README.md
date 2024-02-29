@@ -17,9 +17,9 @@ CTA at the bottom of the Home and Gallery pages to redirect customers to the boo
 
 Footer with links to social media platforms
 
-Booking page, submit button goes to success.html
+Booking page, Map and submit button goes to success.html
 
-Responsive Layout: Meet the Team Section
+Responsive Layout: Meet the Team Section, Customer Reviews, Booking Page
 
 
 ## Technologies Used

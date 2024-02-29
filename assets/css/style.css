@@ -195,7 +195,6 @@ p {
 @media (max-width: 800px) {
     .flex-review-box {
         flex-direction: column;
-
     }
 }
 
@@ -211,10 +210,7 @@ p {
     #booking-form {
         padding: 2px;
         width: 97%;
-        padding-left: 10px;
-        padding-right: 10px;
         padding-top: 10px;
-        padding-bottom: 10px;
     }
 
     /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
