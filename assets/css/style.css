@@ -172,163 +172,159 @@ figure.item {
 /* code partly taken from https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive */
 /* code partly taken from https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b */
 
-  
+
 .flex-review-box {
     display: flex;
     width: 100%;
-  }
-  
-  .flex-review {
+}
+
+.flex-review {
     flex: 1;
     border: 2px solid #c6c4c4;
     margin: 10px;
-  }
+}
 
-  .flex-review h3, p {
+.flex-review h3,
+p {
     margin-left: 10px;
     margin-right: 10px;
     font-size: smaller;
-  }
+}
 
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
+/* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
     .flex-review-box {
-      flex-direction: column;
-      
-  }
-  
-  
+        flex-direction: column;
 
-
-
-/* Booking Form */
-/* Main Picture on booking page */
-#booking-1 {
-    height: 500px;
-    max-width: 100%;
-    background: url(../images/booking-1.webp) no-repeat left center/cover;
-    box-shadow: 0 0 5px 0 #3c3939;
+    }
 }
 
-#booking-form {
-    border-style: inset;
-    padding: 2px;
-    width: 97%;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+    /* Booking Form */
+    /* Main Picture on booking page */
+    #booking-picture {
+        height: 500px;
+        max-width: 100%;
+        background: url(../images/booking-1.webp) no-repeat left center/cover;
+        box-shadow: 0 0 5px 0 #3c3939;
+    }
 
-/* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
-input,
-textarea {
-    width: 96%;
-    padding: 2px;
-    margin: 5px;
-    border: 2px solid rgba(57, 57, 57, 0.502);
-    border-radius: 10px;
-}
+    #booking-form {
+        padding: 2px;
+        width: 97%;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
-input:hover {
-    box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
-}
+    /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
+    input,
+    textarea {
+        width: 96%;
+        padding: 2px;
+        margin: 5px;
+        
+    }
 
-textarea {
-    background-color: white;
-    width: 96%;
-    height: 100px;
-    padding: 2px;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
+    input:hover {
+        box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
+    }
 
-input[type="submit"] {
-    background-color: #3c3939;
-    width: 180px;
-    display: block;
-    margin: 0px auto;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 16px;
-    text-transform: uppercase;
-    color: white;
-    margin-top: 30px;
-    padding: 20px;
-    text-align: center;
-    cursor: pointer;
-}
+    textarea {
+        background-color: white;
+        width: 96%;
+        height: 100px;
+        padding: 2px;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
 
-input[type="submit"]:hover {
-    background-color: #7f7d7d;
-}
+    input[type="submit"] {
+        background-color: #3c3939;
+        width: 180px;
+        display: block;
+        margin: 0px auto;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: white;
+        margin-top: 30px;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+    }
 
-#date,
-input[type="submit"] {
-    font-family: 'Rubik', sans-serif;
-    font-size: 14px;
-}
+    input[type="submit"]:hover {
+        background-color: #7f7d7d;
+    }
 
-/* Map on Booking Page */
-/* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
-.google-map {
-    padding-bottom: 75%;
-    position: relative;
-    margin: 20px 50px;
-    height: 0;
-    overflow: hidden;
-}
+    #date,
+    input[type="submit"] {
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+    }
 
-.google-map iframe {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-}
+    /* Map on Booking Page */
+    /* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
+    .google-map {
+        padding-bottom: 75%;
+        position: relative;
+        margin: 20px 50px;
+        height: 0;
+        overflow: hidden;
+    }
 
-/* Footer */
-footer {
-    background-color: aliceblue;
-    box-shadow: 0 0 2px 0 #3c3939;
-    margin-top: auto;
-}
+    .google-map iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        position: absolute;
+    }
+
+    /* Footer */
+    footer {
+        background-color: aliceblue;
+        box-shadow: 0 0 2px 0 #3c3939;
+        margin-top: auto;
+    }
 
 
 
-/* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
-#social-networks {
-    display: flex;
-    justify-content: center;
-    padding: 20px 10px;
-    gap: 20px;
-    list-style-type: none;
-}
+    /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
+    #social-networks {
+        display: flex;
+        justify-content: center;
+        padding: 20px 10px;
+        gap: 20px;
+        list-style-type: none;
+    }
 
-/* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
-#social-networks i {
-    font-size: 150%;
-    padding: 5%;
-    color: #4a4747;
+    /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
+    #social-networks i {
+        font-size: 150%;
+        padding: 5%;
+        color: #4a4747;
 
-}
+    }
 
-/* success.html */
-/* code from https://codepen.io/warrendunlop/pen/YmVKzm */
+    /* success.html */
+    /* code from https://codepen.io/warrendunlop/pen/YmVKzm */
 
-.checkmark {
-    color: #3c3939;
-    font-size: 100px;
-    line-height: 200px;
-    margin-left: -15px;
-}
+    .checkmark {
+        color: #3c3939;
+        font-size: 100px;
+        line-height: 200px;
+        margin-left: -15px;
+    }
 
-.card {
-    background: white;
-    padding: 60px;
-    border-radius: 4px;
-    box-shadow: 0 2px 3px #C8D0D8;
-    display: inline-block;
-    margin: 0 auto;
-}
+    .card {
+        background: white;
+        padding: 60px;
+        border-radius: 4px;
+        box-shadow: 0 2px 3px #C8D0D8;
+        display: inline-block;
+        margin: 0 auto;
+    }
