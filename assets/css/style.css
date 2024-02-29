@@ -199,143 +199,138 @@ h3 {
     }
 }
 
-    /* Booking Form */
-    /* Main Picture on booking page */
-    #contact-picture {
-        height: 500px;
-        max-width: 100%;
-        background: url(../images/booking-1.webp) no-repeat left center/cover;
-        box-shadow: 0 0 5px 0 #3c3939;
-    }
+/* Booking Form */
+/* Main Picture on booking page */
+#contact-picture {
+    height: 500px;
+    max-width: 100%;
+    background: url(../images/booking-1.webp) no-repeat left center/cover;
+    box-shadow: 0 0 5px 0 #3c3939;
+}
 
-    #contact-form {
-        padding: 2px;
-        padding-top: 10px;
-    }
+#contact-form {
+    padding: 2px;
+    padding-top: 10px;
+}
 
-    /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
-    label,
-    input,
-    #date,
-    textarea {
-        width: 93%;
-        padding: 2px;
-        margin: 5px;
-        min-width: 1px;
-        
-    }
+/* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
+label,
+input,
+#date,
+textarea {
+    width: 93%;
+    padding: 2px;
+    margin: 5px;
+    min-width: 1px;
+}
 
-    input:hover {
-        box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
-    }
+input:hover {
+    box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
+}
 
-    textarea {
-        background-color: white;
-        width: 93%;
-        height: 100px;
-        padding: 2px;
-        box-sizing: border-box;
-        border-radius: 4px;
-    }
+textarea {
+    background-color: white;
+    width: 93%;
+    height: 100px;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
 
-    input[type="submit"] {
-        background-color: #3c3939;
-        width: 180px;
-        display: block;
-        margin: 0px auto;
-        border: none;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: white;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        padding: 20px;
-        text-align: center;
-        cursor: pointer;
-    }
+input[type="submit"] {
+    background-color: #3c3939;
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+     padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
 
-    input[type="submit"]:hover {
-        background-color: #7f7d7d;
-    }
+input[type="submit"]:hover {
+    background-color: #7f7d7d;
+}
 
-    #date,
-    input[type="submit"] {
-        font-family: 'Rubik', sans-serif;
-        font-size: 14px;
-    }
+#date,
+input[type="submit"] {
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
 
-    /* Map on Booking Page */
-    /* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
-    .google-map {
-        padding-top: 50%;
-        position: relative;
-        height: 0;
-        overflow: hidden;
-    }
+/* Map on Booking Page */
+/* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
+.google-map {
+    padding-top: 50%;
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
 
-    .google-map iframe {
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        position: absolute;
-    }
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 
-    /* Footer */
-    /* code taken from https://stackoverflow.com/questions/39337956/centering-social-media-icons-in-footer-of-website#:~:text=page%2Dfooter%20add%20a%20property,the%20middle%20of%20the%20element */
+/* Footer */
+/* code taken from https://stackoverflow.com/questions/39337956/centering-social-media-icons-in-footer-of-website#:~:text=page%2Dfooter%20add%20a%20property,the%20middle%20of%20the%20element */
+footer {
+    background-color: aliceblue;
+    box-shadow: 0 0 2px 0 #3c3939;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-list {
+    text-align: center;
+}
     
-    footer {
-        background-color: aliceblue;
-        box-shadow: 0 0 2px 0 #3c3939;
-        margin-top: auto;
-        display: flex;
-        justify-content: space-evenly;
-    }
+.footer-list-item {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 2em;
+}
 
-    .footer-list {
-        text-align: center;
-    }
-    
-    .footer-list-item {
-        list-style-type: none;
-        display: inline-block;
-        margin-right: 2em;
-    }
+.footer-list i {
+    font-size: 150%;
+    color: #4a4747;
+}
 
-    .footer-list i {
-        font-size: 150%;
-        color: #4a4747;
-    }
-
-    
-
-    /* 404.html */
-    /* success.html */
-    /* code from https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css/ */
-    .error-body { 
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        height: 100vh; 
-    } 
+/* 404.html */
+/* code from https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css/ */
+.other-body { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+} 
       
-    .error-container { 
-        text-align: center; 
-        background-color: #fff; 
-        padding: 20px; 
-        border-radius: 5px; 
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+.other-container { 
+    text-align: center; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
          
-    } 
+} 
       
-    .error-container h1 { 
-        font-size: 5rem; 
-        color: #3c3939;
-    } 
+.other-container h1 { 
+    font-size: 5rem; 
+    color: #3c3939;
+} 
 
-    .error-home {
+.error-home {
     background-color: #3c3939; 
     color: #fff; 
     padding: 10px 20px; 
@@ -345,9 +340,9 @@ h3 {
     box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
 } 
   
-    .error-home a { 
-        text-decoration: none; 
-        color: white;
+.error-home a { 
+    text-decoration: none; 
+    color: white;
 }
     
       

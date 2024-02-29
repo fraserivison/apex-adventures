@@ -64,6 +64,5 @@ Booking Form [Programiz] (https://www.programiz.com/css/form-styling) [MDN](http
 
 Map [HubSpot](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
 
-success.html [CodePen](https://codepen.io/warrendunlop/pen/YmVKzm)
 
 404.html [GeeksForGeeks](https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css/)
