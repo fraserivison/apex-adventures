@@ -53,7 +53,7 @@ Responsive Font Size [MakeUseOf] (https://www.makeuseof.com/how-to-create-respon
 
 Gallery [SheCodes] (https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes.)
 
-Dont Take Our Word For It [W3Schools] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_testimonials)
+Dont Take Our Word For It [W3Schools] (https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive)
 [DEV](https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b)
 
 Navigation Bar [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)

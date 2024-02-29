@@ -169,7 +169,7 @@ figure.item {
 }
 
 /* Don't Take Our Word For It... */
-/* code partly taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_testimonials */
+/* code partly taken from https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive */
 /* code partly taken from https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b */
 
   
@@ -194,7 +194,7 @@ figure.item {
 @media (max-width: 800px) {
     .flex-review-box {
       flex-direction: column;
-    }
+      
   }
   
   
