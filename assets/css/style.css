@@ -209,16 +209,17 @@ p {
 
     #booking-form {
         padding: 2px;
-        width: 97%;
+        width: 100%;
         padding-top: 10px;
     }
 
     /* code below for the Booking Form taken from https://www.programiz.com/css/form-styling */
     input,
     textarea {
-        width: 96%;
+        width: 100%;
         padding: 2px;
         margin: 5px;
+        min-width: 1px;
         
     }
 
@@ -228,7 +229,7 @@ p {
 
     textarea {
         background-color: white;
-        width: 96%;
+        width: 100%;
         height: 100px;
         padding: 2px;
         box-sizing: border-box;
@@ -246,7 +247,8 @@ p {
         font-size: 16px;
         text-transform: uppercase;
         color: white;
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
         padding: 20px;
         text-align: center;
         cursor: pointer;
@@ -265,7 +267,7 @@ p {
     /* Map on Booking Page */
     /* code from https://blog.hubspot.com/website/how-to-embed-google-map-in-html */
     .google-map {
-        padding-bottom: 75%;
+        padding-bottom: 100%;
         position: relative;
         height: 0;
         overflow: hidden;
