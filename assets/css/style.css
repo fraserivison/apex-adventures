@@ -294,8 +294,7 @@ p {
     #social-networks {
         display: flex;
         justify-content: center;
-        padding: 20px 10px;
-        gap: 20px;
+        gap: 40px;
         list-style-type: none;
     }
 
@@ -304,6 +303,7 @@ p {
         font-size: 150%;
         padding: 5%;
         color: #4a4747;
+        right: 0;
 
     }
 
