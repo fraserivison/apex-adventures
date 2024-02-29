@@ -31,12 +31,12 @@ h2 {
     text-shadow: 2px 2px 5px #c6c4c4;
     font-family: 'Chelsea Market', sans-serif;
     text-transform: uppercase;
-
 }
 
 /* Navigation Bar */
 /* code for the nav bar partly taken from https://codepen.io/maheshambure21/pen/QwXaRw */
-#navbar {
+#navbar,
+footer {
     list-style-type: none;
     padding: 5px;
     display: flex;
@@ -283,22 +283,28 @@ p {
 
     /* Footer */
     /* code taken from https://stackoverflow.com/questions/39337956/centering-social-media-icons-in-footer-of-website#:~:text=page%2Dfooter%20add%20a%20property,the%20middle%20of%20the%20element */
-    footer {
+    
+    /* footer {
         background-color: aliceblue;
         box-shadow: 0 0 2px 0 #3c3939;
         margin-top: auto;
     }
-    .footer-list-item {
-        list-style-type: none;
-        display: inline-block;
-      }
-  
-      .footer-list {
+
+    /*
+    .footer-list {
         padding: 10px 0;
         text-align: center;
         font-size: 150%;
         color: #4a4747;
-}
+    }
+    
+    
+    .footer-list-item {
+        list-style-type: none;
+        display: inline-block;
+    }
+  */
+    
 
 
 
