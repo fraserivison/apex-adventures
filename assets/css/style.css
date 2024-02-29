@@ -171,70 +171,35 @@ figure.item {
 /* Don't Take Our Word For It... */
 /* code partly taken from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_testimonials */
 /* code partly taken from https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b */
+
+  
 .flex-review-box {
     display: flex;
     width: 100%;
-
-}
-
-.flex-review {
+  }
+  
+  .flex-review {
     flex: 1;
     border: 2px solid #c6c4c4;
     margin: 10px;
-}
+  }
 
-.flex-review h3,p {
+  .flex-review h3, p {
     margin-left: 10px;
     margin-right: 10px;
     font-size: smaller;
-}
-
-/*.flex-child-element:first-child {
-    margin-right: 20px;
-  } */
-
-
-
-/* .container {
-    border: 2px solid #ccc;
-    box-shadow: 0 0 5px 0 #3c3939;
-    border-radius: 5px;
-    padding: 16px;
-    margin: 16px 10px;
-}
-  
-  .container::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .container img {
-    float: left;
-    margin-right: 20px;
-    border-radius: 50%;
-    box-shadow: 0 0 5px 0 #3c3939;
-    filter: grayscale(100%);
-  }
-  
-  .container span {
-    font-size: 20px;
-    margin-right: 4px;
   }
 
-  
-  @media (max-width: 500px) {
-    .container {
-        text-align: center;
-    }
-    .container img {
-        margin: auto;
-        float: none;
-        display: block;
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-review-box {
+      flex-direction: column;
     }
   }
+  
+  
 
-  */
+
 
 /* Booking Form */
 /* Main Picture on booking page */
@@ -327,8 +292,9 @@ input[type="submit"] {
 footer {
     background-color: aliceblue;
     box-shadow: 0 0 2px 0 #3c3939;
-    flex-grow: 1;
+    margin-top: auto;
 }
+
 
 
 /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
