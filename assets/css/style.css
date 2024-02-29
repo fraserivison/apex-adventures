@@ -216,7 +216,7 @@ p {
     #date,
     input,
     textarea {
-        width: 100%;
+        width: 93%;
         padding: 2px;
         margin: 5px;
         min-width: 1px;
@@ -229,7 +229,7 @@ p {
 
     textarea {
         background-color: white;
-        width: 100%;
+        width: 93%;
         height: 100px;
         padding: 2px;
         box-sizing: border-box;
