@@ -45,7 +45,7 @@ Live link to site:(https://fraserivison.github.io/apex-adventures/)
 
 ## Credits
 
-The code to make the social media tabs in the footer is from [Youtube] (https://www.youtube.com/watch?v=_CEJZr8-OmY)
+Footer [StackOverFlow] (https://stackoverflow.com/questions/39337956/centering-social-media-icons-in-footer-of-website#:~:text=page%2Dfooter%20add%20a%20property,the%20middle%20of%20the%20element.)
 
 The icons in the footer are from [FontAwesome] (https://fontawesome.com/kits)
 

@@ -282,30 +282,25 @@ p {
     }
 
     /* Footer */
+    /* code taken from https://stackoverflow.com/questions/39337956/centering-social-media-icons-in-footer-of-website#:~:text=page%2Dfooter%20add%20a%20property,the%20middle%20of%20the%20element */
     footer {
         background-color: aliceblue;
         box-shadow: 0 0 2px 0 #3c3939;
         margin-top: auto;
     }
-
-
-
-    /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
-    #social-networks {
-        display: flex;
-        justify-content: center;
-        gap: 40px;
+    .footer-list-item {
         list-style-type: none;
-    }
-
-    /* code taken from https://www.youtube.com/watch?v=_CEJZr8-OmY--> */
-    #social-networks i {
+        display: inline-block;
+      }
+  
+      .footer-list {
+        padding: 10px 0;
+        text-align: center;
         font-size: 150%;
-        padding: 5%;
         color: #4a4747;
-        right: 0;
+}
 
-    }
+
 
     /* success.html */
     /* code from https://codepen.io/warrendunlop/pen/YmVKzm */
