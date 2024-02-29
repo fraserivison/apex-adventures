@@ -271,7 +271,6 @@ p {
     .google-map {
         padding-bottom: 75%;
         position: relative;
-        margin: 20px 50px;
         height: 0;
         overflow: hidden;
     }
