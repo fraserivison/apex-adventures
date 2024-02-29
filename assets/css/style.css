@@ -311,28 +311,8 @@ h3 {
 
     
 
-
-
-    /* success.html */
-    /* code from https://codepen.io/warrendunlop/pen/YmVKzm */
-
-    .checkmark {
-        color: #3c3939;
-        font-size: 100px;
-        line-height: 200px;
-        margin-left: -15px;
-    }
-
-    .card {
-        background: white;
-        padding: 60px;
-        border-radius: 4px;
-        box-shadow: 0 2px 3px #C8D0D8;
-        display: inline-block;
-        margin: 0 auto;
-    }
-
     /* 404.html */
+    /* success.html */
     /* code from https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css/ */
     .error-body { 
         display: flex; 
