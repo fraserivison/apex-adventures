@@ -333,9 +333,7 @@ h3 {
     }
 
     /* 404.html */
-    /* <!-- code from https://codepen.io/akashrajendra/pen/JKKRvQ --> */
-
-      
+    /* code from https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css/ */
     .error-body { 
         display: flex; 
         justify-content: center; 
