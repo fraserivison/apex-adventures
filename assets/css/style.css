@@ -35,8 +35,7 @@ h2 {
 
 /* Navigation Bar */
 /* code for the nav bar partly taken from https://codepen.io/maheshambure21/pen/QwXaRw */
-#navbar,
-footer {
+#navbar {
     list-style-type: none;
     padding: 5px;
     display: flex;
@@ -199,14 +198,14 @@ p {
 
     /* Booking Form */
     /* Main Picture on booking page */
-    #booking-picture {
+    #contact-picture {
         height: 500px;
         max-width: 100%;
         background: url(../images/booking-1.webp) no-repeat left center/cover;
         box-shadow: 0 0 5px 0 #3c3939;
     }
 
-    #booking-form {
+    #contact-form {
         padding: 2px;
         padding-top: 10px;
     }
@@ -284,13 +283,15 @@ p {
     /* Footer */
     /* code taken from https://stackoverflow.com/questions/39337956/centering-social-media-icons-in-footer-of-website#:~:text=page%2Dfooter%20add%20a%20property,the%20middle%20of%20the%20element */
     
-    /* footer {
+    footer {
         background-color: aliceblue;
         box-shadow: 0 0 2px 0 #3c3939;
         margin-top: auto;
+        display: flex;
+        justify-content: space-evenly;
     }
 
-    /*
+
     .footer-list {
         padding: 10px 0;
         text-align: center;
