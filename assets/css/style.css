@@ -170,8 +170,6 @@ figure.item {
 /* Don't Take Our Word For It... */
 /* code partly taken from https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive */
 /* code partly taken from https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b */
-
-
 .flex-review-box {
     display: flex;
     width: 100%;
@@ -183,8 +181,11 @@ figure.item {
     margin: 10px;
 }
 
-.flex-review h3,
-p {
+h3 {
+    margin-left: 13.3px;
+}
+
+.flex-review p {
     margin-left: 10px;
     margin-right: 10px;
     font-size: smaller;
