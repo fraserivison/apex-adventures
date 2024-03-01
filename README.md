@@ -17,20 +17,36 @@ The goal of the site is to establish an immersive and dependable platform with e
 
 ## Features
 
-Navigation Bar featured on every page, interactive.
+### Apex Adventures Logo:
+The clickable Apex Adventures logo serves as a convenient route back to the home page, ensuring users have quick access to the central hub of information. This feature enhances user navigation, providing a seamless and user-friendly experience for those exploring our shark cage diving offerings.
 
-Gallery page with testimonials
-Responsive design using hover feature to make sharks look like they're coming out. Media query in place so it isn't availabe on screens with a width smaller than 600px.
+### Navigation Bar:
+Our full responsive navigation bar is a key feature present on all three pages – Home, Gallery, and Contact. With identical layouts across pages, users can effortlessly navigate between them on any device, eliminating the need to revert to the 'back' button. This streamlined design enhances user experience, allowing them to easily find the information they seek about our shark cage diving adventures.
 
-CTA at the bottom of the Home and Gallery pages to redirect customers to the booking page.
+### Who Are We Section:
+The 'Who Are We' section offers customers insights into the essence of Apex Adventures, sharing a glimpse of our company's background and values. This feature serves as a bridge to connect with potential adventurers, instilling trust and familiarity with our brand.
 
-Footer with links to social media platforms
+### Meet the Team Section:
+Introducing our core crew, the 'Meet the Team' section provides a personal touch to the Apex Adventures experience. By familiarizing users with the individuals behind the scenes, we aim to build a connection and showcase the expertise and passion that fuels our shark cage diving expeditions.
 
-Booking page, Map and submit button goes to success.html
+### Company Promise Section:
+The 'Company Promise' section encapsulates our commitment to customer care, safety, and the transformative shark cage diving experience. This quote from our team reinforces the values that define Apex Adventures, assuring users of our dedication to their satisfaction and safety.
+
+### Gallery Page with Customer Reviews:
+The responsive design of our Gallery page, featuring a hover effect on photos and a media query for screens above 600px, provides an engaging visual experience. Customer reviews following the gallery enhance credibility and build trust, assuring potential adventurers of the exciting and safe experiences others have had with Apex Adventures.
+
+### Call to Action:
+Strategically placed at the bottom of the Home and Gallery pages, the consistent call to action serves as a shortcut redirecting users to the booking page. This user-friendly feature ensures a seamless transition for those ready to embark on their shark cage diving adventure.
+
+### Footer:
+Our footer, present on each page, includes links to our social media platforms. Designed to shrink gracefully as the screen size decreases, this feature facilitates social engagement and interaction, keeping our audience connected with the latest updates and offerings from Apex Adventures.
+
+### Booking Page with Map:
+The Booking page features a map showcasing the location of our HQ, enhancing transparency for customers. The submit button directs users to a success.html, confirming their booking. This streamlined process ensures a smooth and hassle-free booking experience, seamlessly integrating the map with the booking form.
+
 
 404.html has a button to go bakc to home page
 
-Responsive Layout: Meet the Team Section, Customer Reviews, Booking Page
 
 
 ## Technologies Used
