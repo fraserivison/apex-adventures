@@ -12,13 +12,21 @@ body {
     flex-direction: column;
 }
 
-@media screen and (max-width: 2200px) {
+/* Background contained in large screensizes */
+@media screen and (max-width: 3000px) {
 body {
      background-size: contain;
     }
 }
 
-@media screen and (min-width: 270px) {
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+/* Background changes with small screensize */
+@media screen and (min-width: 250px) {
     body {
         background-image: url("../images/background-1-backup.jpeg");
     }
@@ -150,9 +158,9 @@ figure.item {
     box-shadow: 0 0 5px 0 #3c3939;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 300px) {
     .item img {
-        width: 100%;
+        width: 200px;
     }
 }
 
@@ -161,6 +169,12 @@ figure.item {
     display: block;
     padding-top: 20px;
     padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 300px) {
+    .caption {
+        width: 200px;
+    }
 }
 
 /* 2nd Main Picture on Home Page */
@@ -263,7 +277,6 @@ h3 {
     font-size: smaller;
 }
 
-/* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
     .flex-review-box {
         flex-direction: column;
@@ -282,7 +295,7 @@ h3 {
 @media screen and (max-width: 480px) {
     #contact-picture {
     height: 200px;
-}
+    }
 }
 
 #contact-form {
@@ -332,7 +345,23 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+@media screen and (max-width: 280px) {
+    input[type="submit"] {
+        width: 85%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+label,
+input,
+#date,
+textarea {
+    width: 85%;
+   }
+}
+
+    input[type="submit"]:hover {
     background-color: #7f7d7d;
 }
 
@@ -382,6 +411,12 @@ footer {
 .footer-list i {
     font-size: 150%;
     color: #4a4747;
+}
+
+@media screen and (max-width: 280px) {
+    .footer-list i {
+        font-size: smaller;
+    }
 }
 
 /* 404.html */
