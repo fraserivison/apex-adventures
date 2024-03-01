@@ -220,8 +220,6 @@ figure.item {
 }    
 
 .image-grid img:hover {
-    -ms-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
     transform: scale(1.2); 
 }
 
