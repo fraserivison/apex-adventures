@@ -158,19 +158,35 @@ figure.item {
 }
 
 /* Gallery */
-/* code below for the Gallery taken from https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes */
+/* code below for the Gallery taken from https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes
+& https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover */
 .image-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 2px;
-    margin: 0 0 8px 0;
-    
+    margin: 0 0 8px 0;   
 }
 
 .image-grid img {
     max-width: 100%;
     height: 240px;
+    transition: transform .2s;
+    box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
+}    
+
+.image-grid img:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2); 
 }
+
+@media only screen and (max-width: 600px) {
+    .image-grid img:hover {
+        transform: scale(1.0)
+    }
+}
+
+
 
 /* Don't Take Our Word For It... */
 /* code partly taken from https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive */

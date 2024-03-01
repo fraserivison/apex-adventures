@@ -11,7 +11,7 @@ The goal of the site is to establish an immersive and dependable platform with e
 Navigation Bar featured on every page, interactive.
 
 Gallery page with testimonials
-Hover feature to make sharks look like they're coming out
+Responsive design using hover feature to make sharks look like they're coming out. Media query in place so it isn't availabe on screens with a width smaller than 600px.
 
 CTA at the bottom of the Home and Gallery pages to redirect customers to the booking page.
 
@@ -53,7 +53,7 @@ The icons in the footer are from [FontAwesome] (https://fontawesome.com/kits)
 
 Responsive Font Size [MakeUseOf] (https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.)
 
-Gallery [SheCodes] (https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes.)
+Gallery [SheCodes] (https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes.) and [W3Schools] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover)
 
 Dont Take Our Word For It [W3Schools] (https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive)
 [DEV](https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b)
