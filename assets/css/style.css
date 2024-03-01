@@ -81,6 +81,10 @@ main {
     margin: 9px 30px;
 }
 
+.margin {
+    margin: 30px;
+}
+
 #hero-1 {
     height: 500px;
     max-width: 100%;
