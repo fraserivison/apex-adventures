@@ -12,6 +12,18 @@ body {
     flex-direction: column;
 }
 
+@media screen and (max-width: 2200px) {
+body {
+     background-size: contain;
+    }
+}
+
+@media screen and (min-width: 270px) {
+    body {
+        background-image: url("../images/background-1-backup.jpeg");
+    }
+}
+
 /* Header */
 header {
     background-color: rgb(134, 223, 255, 0.4);
