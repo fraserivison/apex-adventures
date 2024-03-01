@@ -84,6 +84,10 @@ The photo gallery has been designed to be responsive, intelligently stacking ima
 
 Extensive cross-browser testing has been conducted to guarantee compatibility across diverse platforms. Apex Adventures has been tested on popular browsers, including Chrome, Firefox, Safari, and Edge, ensuring a consistent and enjoyable experience for users regardless of their chosen browser. This meticulous testing process instills confidence that the website is not only visually appealing but also highly functional, meeting the needs of users across a diverse array of devices and browsers.
 
+The Apex Adventures website has undergone comprehensive testing on various platforms, including desktop environments, iPhone 14, iPhone 12 mini, iPhone XS, Samsung Chrome, Safari, Firefox, and Edge. This diverse range of devices and browsers ensures that users across different platforms have a consistent and reliable experience.
+
+During testing, a minor issue was identified on the Safari browser where the drop-down menu for the date on the form appeared with a grey background and white text. To maintain a cohesive and visually pleasing design across all browsers, I promptly addressed this issue by adding a rule to the select class, ensuring a white background with black text, aligning it with the overall theme of the page. This proactive approach to troubleshooting underscores our commitment to delivering a seamless experience for users, regardless of their chosen browser or device. The implementation of this rule ensures a uniform appearance and functionality across all supported browsers, contributing to the overall success of the Apex Adventures website.
+
 
 
 

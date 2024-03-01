@@ -343,7 +343,7 @@ input[type="submit"] {
 select {
     color: #3c3939;
     border-color: #3c3939;
-    background-color: white;
+    background: white;
 }
 
 /* Submit button shrinks with smaller screen size */
