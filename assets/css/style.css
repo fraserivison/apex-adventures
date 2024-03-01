@@ -78,11 +78,7 @@ main {
 }
 
 .aside {
-    margin: 9px 30px;
-}
-
-.margin {
-    margin: 30px;
+    margin: 9px 10%;
 }
 
 #hero-1 {
@@ -111,11 +107,13 @@ hr.solid {
 figure.item {
     vertical-align: top;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     width: 25%;
     min-height: 200px;
     min-width: 250px;
 }
+
+
 
 .item img {
     width: 100%;
