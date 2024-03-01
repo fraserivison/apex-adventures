@@ -5,17 +5,35 @@ Apex Adventures is the gateway to the Ultimate Shark Cage Diving Experience! Thi
 
 The platform was designed to target adrenaline enthusiasts and those seeking unique experiences. Our user-friendly interface ensures easy navigation, allowing users to submit requests to see upcoming trips, learn about our team of expert guides, see some pictures taken by past customers, read their reviews and discover more about Apex Adventures.
 
+*** PICTURES OF WEBSITE ON ALL VIEWPORTS ***
+
 External user’s goal:
 The site's users are adventure enthusiasts and shark enthusiasts interested in information and resources related to great white shark cage diving experiences, including locations, images/testimonials and educational content.
 
 Site owner's goal:
 The goal of the site is to establish an immersive and dependable platform with educational content and testimonials from previous customers. This platform aims to provide users with information about great white shark cage diving and how to book a tour.
 
-
-*** PICTURES OF WEBSITE ON ALL VIEWPORTS ***
+## Structure 
+Wireframes
 
 
 ## Features
+
+Diving Locations Timeline:
+A dynamic timeline showcasing the historical development and evolution of great white shark cage diving locations around the world. Historical facts and milestones related to each location, offering users an immersive journey through time.
+
+Safety Measures:
+A section highlighting the historical evolution of safety measures and protocols in great white shark cage diving. Information on advancements in technology and practices to ensure the well-being of both divers and sharks.
+
+
+### Features Left to Implement
+Diving Locations Timeline:
+A dynamic timeline showcasing the historical development and evolution of great white shark cage diving locations around the world. Historical facts and milestones related to each location, offering users an immersive journey through time.
+
+Safety Measures:
+A section highlighting the historical evolution of safety measures and protocols in great white shark cage diving. Information on advancements in technology and practices to ensure the well-being of both divers and sharks.
+
+
 
 ### Apex Adventures Logo:
 The clickable Apex Adventures logo serves as a convenient route back to the home page, ensuring users have quick access to the central hub of information. This feature enhances user navigation, providing a seamless and user-friendly experience for those exploring our shark cage diving offerings.
@@ -45,8 +63,7 @@ Our footer, present on each page, includes links to our social media platforms. 
 The Booking page features a map showcasing the location of our HQ, enhancing transparency for customers. The submit button directs users to a success.html, confirming their booking. This streamlined process ensures a smooth and hassle-free booking experience, seamlessly integrating the map with the booking form.
 
 
-404.html has a button to go bakc to home page
-
+404.html has a button to go bacc to home page
 
 
 ## Technologies Used
@@ -58,6 +75,7 @@ Font Awesome
 Balsamiq Wireframes
 
 ## Testing
+
 
 ## Bugs
 Potential bug in the footer- not able to space the icons evenly using normal code so have used gap: 20px to fix issue to the icons appear center on all screen sizes.
