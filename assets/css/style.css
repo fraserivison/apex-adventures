@@ -339,12 +339,14 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-/* Colour for date on drop down appears differently on safari */
+/* Specifically for Safari- the colour will be grey/white otherwise */
 select {
     color: #3c3939;
     border-color: #3c3939;
+    background-color: white;
 }
 
+/* Submit button shrinks with smaller screen size */
 @media screen and (max-width: 280px) {
     input[type="submit"] {
         width: 85%;
@@ -361,7 +363,7 @@ textarea {
    }
 }
 
-    input[type="submit"]:hover {
+input[type="submit"]:hover {
     background-color: #7f7d7d;
 }
 
