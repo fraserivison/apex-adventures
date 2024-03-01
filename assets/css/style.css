@@ -341,8 +341,8 @@ input[type="submit"] {
 
 /* Specifically for Safari- the colour will be grey/white otherwise */
 select {
-    color: #3c3939;
-    border-color: #3c3939;
+    color: rgb(128, 128, 128);
+    border-color: rgb(128, 128, 128);
     background: white;
 }
 
