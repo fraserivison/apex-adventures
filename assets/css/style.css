@@ -341,7 +341,8 @@ input[type="submit"] {
 
 /* Colour for date on drop down appears differently on safari */
 select {
-    color: black;
+    color: #3c3939;
+    border-color: #3c3939;
 }
 
 @media screen and (max-width: 280px) {
