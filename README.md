@@ -1,17 +1,19 @@
 # Apex Adventures
 
-
 Overview:
 Apex Adventures is the gateway to the Ultimate Shark Cage Diving Experience! This website was created to deliver an engaging platform for adventure seekers, marine enthusiasts, and anyone captivated by the wonders of the ocean. Apex Adventures aims to redefine the shark diving experience by providing a simple online hub for enthusiasts to explore, book, and embark on exhilarating underwater encounters with Great White Sharks.
 
-Targeting adrenaline enthusiasts, nature lovers, and those seeking unique experiences, Apex Adventures offers a resource to book shark cage diving adventures. Our user-friendly interface ensures easy navigation, allowing users to submit requests to see upcoming trips, learn about our team of expert guides, see some pictures taken by past customers, read their reviews and discover more about Apex Adventures.
-
+The platform was designed to target adrenaline enthusiasts and those seeking unique experiences. Our user-friendly interface ensures easy navigation, allowing users to submit requests to see upcoming trips, learn about our team of expert guides, see some pictures taken by past customers, read their reviews and discover more about Apex Adventures.
 
 External user’s goal:
 The site's users are adventure enthusiasts and shark enthusiasts interested in information and resources related to great white shark cage diving experiences, including locations, images/testimonials and educational content.
 
 Site owner's goal:
 The goal of the site is to establish an immersive and dependable platform with educational content and testimonials from previous customers. This platform aims to provide users with information about great white shark cage diving and how to book a tour.
+
+
+*** PICTURES OF WEBSITE ON ALL VIEWPORTS ***
+
 
 ## Features
 
