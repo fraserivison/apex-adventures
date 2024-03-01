@@ -85,6 +85,8 @@ The photo gallery has been designed to be responsive, intelligently stacking ima
 Extensive cross-browser testing has been conducted to guarantee compatibility across diverse platforms. Apex Adventures has been tested on popular browsers, including Chrome, Firefox, Safari, and Edge, ensuring a consistent and enjoyable experience for users regardless of their chosen browser. This meticulous testing process instills confidence that the website is not only visually appealing but also highly functional, meeting the needs of users across a diverse array of devices and browsers.
 
 
+
+
 ## Bugs
 Throughout the meticulous testing and construction phases of the Apex Adventures platform, I am pleased to report that no bugs or significant issues were identified. Our rigorous testing process encompassed thorough examinations of each feature, from the interactive navigation bar to the responsiveness of the photo gallery and the seamless adaptation of the map and booking form on different screen sizes.
 
