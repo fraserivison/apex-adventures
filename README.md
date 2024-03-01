@@ -76,6 +76,14 @@ Balsamiq Wireframes
 
 ## Testing
 
+I've rigorously tested each facet of the Apex Adventures website to ensure a robust and user-friendly platform. The interactive nature of the navigation bar has been thoroughly examined, providing seamless transitions between pages such as Home, Gallery, and Contact. The footer maintains its consistency across all pages, featuring dynamically resizing social media links to prevent stacking on smaller screens, enhancing both aesthetics and functionality.
+
+The clickable main heading/logo ensures an intuitive user experience, offering a convenient way to navigate back to the home page. In terms of responsiveness, I've meticulously examined the site on various screen sizes, implementing media queries to tailor the layout for specific devices. Notably, below 480px, I've ensured that #hero-1 and #main-1 dynamically shrink, preserving a visually balanced image display.
+
+The photo gallery has been designed to be responsive, intelligently stacking images on top of each other on smaller screens, optimizing the viewing experience. Furthermore, the map and booking form seamlessly adapt on smaller screens, with the map shifting below the booking form on phones to enhance visibility. The footer icons have been crafted to appear smaller when the screen size is 280px or below, preventing stacking and maintaining an organized layout.
+
+Extensive cross-browser testing has been conducted to guarantee compatibility across diverse platforms. Apex Adventures has been tested on popular browsers, including Chrome, Firefox, Safari, and Edge, ensuring a consistent and enjoyable experience for users regardless of their chosen browser. This meticulous testing process instills confidence that the website is not only visually appealing but also highly functional, meeting the needs of users across a diverse array of devices and browsers.
+
 
 ## Bugs
 Potential bug in the footer- not able to space the icons evenly using normal code so have used gap: 20px to fix issue to the icons appear center on all screen sizes.
