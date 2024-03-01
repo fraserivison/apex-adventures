@@ -312,11 +312,6 @@ input:hover {
     box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
 }
 
-#date {
-    color: white;
-    
-}
-
 textarea {
     background-color: white;
     width: 93%;
@@ -342,6 +337,10 @@ input[type="submit"] {
      padding: 20px;
     text-align: center;
     cursor: pointer;
+}
+
+select {
+    -webkit-appearance: none;
 }
 
 @media screen and (max-width: 280px) {
