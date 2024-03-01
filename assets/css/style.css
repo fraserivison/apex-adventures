@@ -312,6 +312,11 @@ input:hover {
     box-shadow: 2px 2px 5px rgba(57, 57, 57, 0.502);
 }
 
+#date {
+    color: white;
+    
+}
+
 textarea {
     background-color: white;
     width: 93%;
