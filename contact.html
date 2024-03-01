@@ -41,102 +41,91 @@
         <!-- 1st Section- Booking Form -->
         <section id="contact-picture"></section>
         <section class="main-margin">
-            <article>
-                <hr class="solid-2">
-                <h2><i class="fa-regular fa-square-check"></i> Book a trip today!</h2>
-                <p>Embark on an unforgettable adventure with Apex Adventures! Simply let us know your name, email
-                    address,
-                    how many are going and then the month you're available, and our dedicated team will promptly reach
-                    out
-                    to you with a curated selection of dates for your shark cage diving experience. Given the dynamic
-                    nature
-                    of weather conditions, providing a broader range of availability ensures flexibility for the optimal
-                    day
-                    to witness the sharks in their natural habitat.</p>
-                <p>Our commitment to your safety and enjoyment is paramount. To make your experience even more
-                    enriching,
-                    feel free to ask any questions you may have. Our experienced team is here to provide insights, share
-                    their passion for marine life, and ensure you have all the information needed for a seamless and
-                    exhilarating adventure!</p>
-                <br>
-                <hr class="solid-2">
-                <br>
-                <section class="flex-review-box">
-                    <form id="contact-form" class="flex-review" aria-label="Booking form" action="success.html">
-                        <!-- Name -->
-                        <div>
-                            <label for="name">What's your name?</label><br>
-                            <input type="text" id="name" name="name" placeholder="Joe Bloggs" required><br>
-                        </div>
-                        <!-- Email -->
-                        <div>
-                            <label for="email">What's your email?</label><br>
-                            <input type="email" id="email" name="email" placeholder="joebloggs1@gmail.com" required><br>
-                        </div>
-                        <!-- Number of People -->
-                        <div>
-                            <label for="people">How many are coming?</label><br>
-                            <input type="number" id="people" name="people" min="1" max="8" placeholder="2" required><br>
-                        </div>
-                        <!-- Date -->
-                        <div>
-                            <label for="date">Which month is best?</label>
-                            <br>
-                            <select id="date" name="date" required>
-                                <!-- code from (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option -->
-                                <option value="">Choose a month</option>
-                                <option>March</option>
-                                <option>April</option>
-                                <option>May</option>
-                                <option>June</option>
-                                <option>July</option>
-                                <option>August</option>
-                                <option>September</option>
-                            </select>
-                            <br>
-                            <br>
-                        </div>
-                        <label for="name">Any questions?</label><br>
-                        <textarea></textarea>
-
-                        <!-- Submit -->
-                        <div>
-                            <input type="submit" value="Submit">
-                        </div>
-                    </form>
-
-                    <!-- Map -->
-                    <section class="google-map flex-review">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.777675005186!2d-4.138338551904808!3d50.364855237248015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486cecafbbc443a9%3A0x23f5053551fe7fb2!2sPlymouth%20Boat%20Trips!5e0!3m2!1sen!2suk!4v1708990955652!5m2!1sen!2suk"
-                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <hr class="solid-2">
+            <h2><i class="fa-regular fa-square-check"></i> Book a trip today!</h2>
+            <p>Embark on an unforgettable adventure with Apex Adventures! Simply let us know your name, email address,
+                how many are going and then the month you're available, and our dedicated team will promptly reach out
+                to you with a curated selection of dates for your shark cage diving experience. Given the dynamic nature
+                of weather conditions, providing a broader range of availability ensures flexibility for the optimal day
+                to witness the sharks in their natural habitat.</p>
+            <p>Our commitment to your safety and enjoyment is paramount. To make your experience even more enriching,
+                feel free to ask any questions you may have. Our experienced team is here to provide insights, share
+                their passion for marine life, and ensure you have all the information needed for a seamless and
+                exhilarating adventure!</p>
+            <br>
+            <hr class="solid-2">
+            <br>
+            <section class="flex-review-box">
+                <form id="contact-form" class="flex-review" aria-label="Booking form" action="success.html">
+                    <!-- Name -->
+                    <section>
+                        <label for="name">What's your name?</label><br>
+                        <input type="text" id="name" name="name" placeholder="Joe Bloggs" required><br>
                     </section>
+                    <!-- Email -->
+                    <section>
+                        <label for="email">What's your email?</label><br>
+                        <input type="email" id="email" name="email" placeholder="joebloggs1@gmail.com" required><br>
+                    </section>
+                    <!-- Number of People -->
+                    <section>
+                        <label for="people">How many are coming?</label><br>
+                        <input type="number" id="people" name="people" min="1" max="8" placeholder="2" required><br>
+                    </section>
+                    <!-- Date -->
+                    <section>
+                        <label for="date">Which month is best?</label>
+                        <br>
+                        <select id="date" name="date" required>
+                            <!-- code from (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option -->
+                            <option value="">Choose a month</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                        </select>
+                        <br>
+                        <br>
+                    </section>
+                    <label for="name">Any questions?</label><br>
+                    <textarea></textarea>
+
+                    <!-- Submit -->
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+
+                <!-- Map -->
+                <section class="google-map flex-review">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3737.777675005186!2d-4.138338551904808!3d50.364855237248015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486cecafbbc443a9%3A0x23f5053551fe7fb2!2sPlymouth%20Boat%20Trips!5e0!3m2!1sen!2suk!4v1708990955652!5m2!1sen!2suk"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </section>
+            </section>
 
-                <br>
+            <br>
 
-                <!-- 2nd Section- Final Word -->
-                <hr class="solid-2">
-                <h2><i class="fa-solid fa-hourglass-end"></i> Final Word...</h2>
-                <p>We are nestled in the heart of Plymouth Harbour, so come and drop by and say hello! Our location,
-                    surrounded by the picturesque beauty of the harburor, serves as a gateway to your unforgettable
-                    shark
-                    cage diving experience. Whether you're a local resident or a visitor exploring the area, feel free
-                    to
-                    pop in! We're always delighted to share our passion for the ocean and answer any questions you may
-                    have.
-                </p>
-                <p>Your journey with Apex Adventures is not just a dive; it's an immersive exploration into the wonders
-                    of
-                    the ocean. We look forward to creating memories with you that transcend the ordinary, all while
-                    contributing to the vital cause of marine conservation. Let the anticipation begin!</p>
-            </article>
-            <br>
-            <hr class="solid-2 margin">
-            <br>
-            <br>
-        </section>
+            <!-- 2nd Section- Final Word -->
+            <hr class="solid-2">
+            <h2><i class="fa-solid fa-hourglass-end"></i> Final Word...</h2>
+            <p>We are nestled in the heart of Plymouth Harbour, so come and drop by and say hello! Our location,
+                surrounded by the picturesque beauty of the harburor, serves as a gateway to your unforgettable shark
+                cage diving experience. Whether you're a local resident or a visitor exploring the area, feel free to
+                pop in! We're always delighted to share our passion for the ocean and answer any questions you may have.
+            </p>
+            <p>Your journey with Apex Adventures is not just a dive; it's an immersive exploration into the wonders of
+                the ocean. We look forward to creating memories with you that transcend the ordinary, all while
+                contributing to the vital cause of marine conservation. Let the anticipation begin!</p>
+        <br>
+        <hr class="solid-2 margin">
+        <br>
+        <br>
+    </section>
     </main>
 
     <!-- Footer -->
