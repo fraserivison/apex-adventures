@@ -208,6 +208,13 @@ figure.item {
     }
 }
 
+@media (min-width: 540px) and (max-width: 720px) {
+    .image-grid img {
+        max-width: 500px;
+        height: 300px;
+    }
+}
+
 
 
 /* Don't Take Our Word For It... */
