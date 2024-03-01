@@ -132,8 +132,6 @@ figure.item {
     min-width: 250px;
 }
 
-
-
 .item img {
     width: 100%;
     height: auto;
@@ -178,6 +176,11 @@ figure.item {
     text-transform: uppercase;
     padding: 20px 5px;
 }
+
+.contact:hover {
+    transform: scale(1.2); 
+}
+
 
 /* Gallery */
 /* code below for the Gallery taken from https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes
