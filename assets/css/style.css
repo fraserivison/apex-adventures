@@ -102,7 +102,14 @@ main {
 
 hr.solid {
     border-top: 3px solid #c6c4c4;
+    margin: 0 12%;
 }
+
+hr.solid-2 {
+    border-top: 3px solid #c6c4c4;
+    margin: 0 15%;
+}
+
 
 /* Meet The Team Section
     /* code taken from https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css */
@@ -143,7 +150,7 @@ figure.item {
     /* Make the caption a block so it occupies its own line. */
     display: block;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 /* 2nd Main Picture on Home Page */
@@ -228,7 +235,7 @@ figure.item {
 .flex-review {
     flex: 1;
     border: 2px solid #c6c4c4;
-    margin: 10px;
+    margin: 15px 30px;
 }
 
 h3 {
