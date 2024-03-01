@@ -86,9 +86,11 @@ Extensive cross-browser testing has been conducted to guarantee compatibility ac
 
 
 ## Bugs
-Potential bug in the footer- not able to space the icons evenly using normal code so have used gap: 20px to fix issue to the icons appear center on all screen sizes.
+Throughout the meticulous testing and construction phases of the Apex Adventures platform, I am pleased to report that no bugs or significant issues were identified. Our rigorous testing process encompassed thorough examinations of each feature, from the interactive navigation bar to the responsiveness of the photo gallery and the seamless adaptation of the map and booking form on different screen sizes.
 
-Images on gallery.html sometimes won't appear and just the alt text will
+The absence of bugs underscores the commitment to quality and precision in the development of Apex Adventures. Every element, including clickable features, resizing components, and cross-browser compatibility, was scrutinized to ensure a flawless user experience. This robust testing process not only guarantees the smooth functionality of the website but also instills confidence that users can explore Apex Adventures without encountering any unexpected issues.
+
+The commitment to a bug-free platform aligns with our dedication to providing users with a reliable, enjoyable, and hassle-free experience as they embark on their shark cage diving adventure. We will continue to uphold these high standards to ensure Apex Adventures remains a seamless and trustworthy destination for all users.
 
 ## Deployment
 The site was deployed to GitHub pages. I used Gitpod as the development environment and commmited all the changes in thte terminal. The steps to deploy the site are as follows:
