@@ -201,6 +201,13 @@ figure.item {
     }
 }
 
+@media only screen and (max-width: 300px) {
+    .image-grid img {
+        max-width: 225px;
+        height: 150px;
+    }
+}
+
 
 
 /* Don't Take Our Word For It... */
