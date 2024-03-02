@@ -12,6 +12,7 @@ The platform was designed to target adrenaline enthusiasts and those seeking uni
     - [External User’s Goal](#external-users-goal)
     - [Site Owner's Goal](#site-owners-goal)
     - [Structure](#structure)
+    - [Surface](#surface)
 - [Features](#features)
 - [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
@@ -31,6 +32,19 @@ In the initial stages of crafting the Apex Adventures website, I employed the ve
 ![Desktop Wireframe](md_images/desktop-wireframe.png)
 ![Mobile Wireframe](md_images/mobile-wireframe.png)
 
+## Surface
+
+### Colours
+Main colours:
+* background color: rgb(134, 223, 255, 0.4);
+* font color: #6217ee#3c3939;
+* text-shadow: #c6c4c4;
+* border-top: #c6c4c4;
+
+### Fonts 
+Main fonts:
+* font-family: 'Rubik', sans-serif;
+* font-family: 'Chelsea Market', sans-serif;
 
 ## Features
 
@@ -71,22 +85,22 @@ A section highlighting the historical evolution of safety measures and protocols
 
 ## Technologies Used
 
-### HTML 5 and CSS
+### HTML 5 and CSS:
 HTML5 (HyperText Markup Language) and CSS (Cascading Style Sheets) are the fundamental web development languages used to structure and style the web content, ensuring a visually appealing and well-organized website.
 
-### Google Fonts
+### Google Fonts:
 Google Fonts is a library of free and customisable fonts that enhances the visual aesthetics of a website, allowing for a diverse selection of typography options to suit the project's design- this was used for the logo and h2 elements.
 
-### Google Images
+### Google Images:
 Google Images served as a valuable resource for obtaining high-quality and relevant images, contributing to the visual appeal and storytelling aspects of the Apex Adventures website. All images from the webiste were taken from Google Images.
 
-### Font Awesome
+### Font Awesome:
  Font Awesome provides a comprehensive collection of scalable vector icons, enhancing the user interface with visually appealing and easily customisable icons for a polished look. The icons that are seen before the h2 elements and in the footer are from Font Awesome.
 
-### Balsamiq Wireframes
+### Balsamiq Wireframes:
 Balsamiq Wireframes is a prototyping tool that facilitates the creation of mockups and wireframes, allowing for the visualisation and testing of website layouts before full-scale development, contributing to efficient and effective design planning. The wireframes that are seen in the 
-### Gitpod
-### Github
+### Gitpod and Github:
+Gitpod, coupled with GitHub, forms a powerful version control and collaboration platform. Gitpod is an online IDE (Integrated Development Environment), while GitHub allows for collaborative coding, version tracking, and project management. These tools promote efficient development workflows, collaboration, and version control, ensuring a robust and well-maintained codebase for the Apex Adventures website.
 
 ## Testing
 
@@ -101,6 +115,16 @@ Extensive cross-browser testing has been conducted to guarantee compatibility ac
 The Apex Adventures website has undergone comprehensive testing on various platforms, including desktop environments, iPhone 14, iPhone 12 mini, iPhone XS, Samsung Chrome, Safari, Firefox, and Edge. This diverse range of devices and browsers ensures that users across different platforms have a consistent and reliable experience.
 
 During testing, a minor issue was identified on the Safari browser where the drop-down menu for the date on the form appeared with a grey background and white text. To maintain a cohesive and visually pleasing design across all browsers, I promptly addressed this issue by adding a rule to the select class, ensuring a white background with black text, aligning it with the overall theme of the page. This proactive approach to troubleshooting underscores our commitment to delivering a seamless experience for users, regardless of their chosen browser or device. The implementation of this rule ensures a uniform appearance and functionality across all supported browsers, contributing to the overall success of the Apex Adventures website.
+
+### Validator Testing
+
+I am pleased to report that during the development of the Apex Adventures website, no errors were returned when passing through the official HTML and CSS validators. This meticulous validation process ensures that the code adheres to industry standards and is free of syntax errors, contributing to a well-structured, accessible, and compliant website. The absence of validation errors underscores our commitment to delivering a seamless and error-free user experience, reinforcing the reliability and professionalism of the Apex Adventures platform.
+
+### HTML:
+![HTML Validator Test](md_images/html-validation.png)
+
+### CSS:
+![CSS Validator Test](md_images/css-validation.png)
 
 
 
