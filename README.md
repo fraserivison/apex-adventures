@@ -22,22 +22,6 @@ In the initial stages of crafting the Apex Adventures website, I employed the ve
 
 ## Features
 
-Diving Locations Timeline:
-A dynamic timeline showcasing the historical development and evolution of great white shark cage diving locations around the world. Historical facts and milestones related to each location, offering users an immersive journey through time.
-
-Safety Measures:
-A section highlighting the historical evolution of safety measures and protocols in great white shark cage diving. Information on advancements in technology and practices to ensure the well-being of both divers and sharks.
-
-
-### Features Left to Implement
-Diving Locations Timeline:
-A dynamic timeline showcasing the historical development and evolution of great white shark cage diving locations around the world. Historical facts and milestones related to each location, offering users an immersive journey through time.
-
-Safety Measures:
-A section highlighting the historical evolution of safety measures and protocols in great white shark cage diving. Information on advancements in technology and practices to ensure the well-being of both divers and sharks.
-
-
-
 ### Apex Adventures Logo:
 The clickable Apex Adventures logo serves as a convenient route back to the home page, ensuring users have quick access to the central hub of information. This feature enhances user navigation, providing a seamless and user-friendly experience for those exploring our shark cage diving offerings.
 
@@ -48,34 +32,48 @@ Our full responsive navigation bar is a key feature present on all three pages â
 The 'Who Are We' section offers customers insights into the essence of Apex Adventures, sharing a glimpse of our company's background and values. This feature serves as a bridge to connect with potential adventurers, instilling trust and familiarity with our brand.
 
 ### Meet the Team Section:
-Introducing our core crew, the 'Meet the Team' section provides a personal touch to the Apex Adventures experience. By familiarizing users with the individuals behind the scenes, we aim to build a connection and showcase the expertise and passion that fuels our shark cage diving expeditions.
+Introducing our core crew, the 'Meet the Team' section provides a personal touch to the Apex Adventures experience. By familiarising users with the individuals behind the scenes, we aim to build a connection and showcase the expertise and passion that fuels our shark cage diving expeditions.
 
-### Company Promise Section:
-The 'Company Promise' section encapsulates our commitment to customer care, safety, and the transformative shark cage diving experience. This quote from our team reinforces the values that define Apex Adventures, assuring users of our dedication to their satisfaction and safety.
+### Our Promise Section:
+The 'Our Promise' section encapsulates our commitment to customer care, safety, and the transformative shark cage diving experience. This quote from our team reinforces the values that define Apex Adventures, assuring users of our dedication to their satisfaction and safety.
 
 ### Gallery Page with Customer Reviews:
-The responsive design of our Gallery page, featuring a hover effect on photos and a media query for screens above 600px, provides an engaging visual experience. Customer reviews following the gallery enhance credibility and build trust, assuring potential adventurers of the exciting and safe experiences others have had with Apex Adventures.
+The responsive design of our Gallery page provides an engaging visual experience of previous customers in the water with te sharks. Customer reviews following the gallery enhance credibility and build trust, assuring potential adventurers of the exciting and safe experiences others have had with Apex Adventures.
 
 ### Call to Action:
 Strategically placed at the bottom of the Home and Gallery pages, the consistent call to action serves as a shortcut redirecting users to the booking page. This user-friendly feature ensures a seamless transition for those ready to embark on their shark cage diving adventure.
 
 ### Footer:
-Our footer, present on each page, includes links to our social media platforms. Designed to shrink gracefully as the screen size decreases, this feature facilitates social engagement and interaction, keeping our audience connected with the latest updates and offerings from Apex Adventures.
+Our footer, present on each page, includes links to our social media platforms. This feature facilitates social engagement and interaction, keeping our audience connected with the latest updates and offerings from Apex Adventures.
 
 ### Booking Page with Map:
-The Booking page features a map showcasing the location of our HQ, enhancing transparency for customers. The submit button directs users to a success.html, confirming their booking. This streamlined process ensures a smooth and hassle-free booking experience, seamlessly integrating the map with the booking form.
+The Booking page features a section to easily make a booking request and a map showcasing the location of our HQ, enhancing transparency for customers.  This streamlined process ensures a smooth and hassle-free booking experience, seamlessly integrating the map with the booking form.
 
+## Features Left to Implement
 
-404.html has a button to go bacc to home page
+### Diving Locations Timeline:
+A dynamic timeline showcasing the historical development and evolution of great white shark cage diving locations around the world. Historical facts and milestones related to each location, offering users an immersive journey through time.
 
+### Safety Measures:
+A section highlighting the historical evolution of safety measures and protocols in great white shark cage diving. Information on advancements in technology and practices to ensure the well-being of both divers and sharks.
 
 ## Technologies Used
 
-HTML 5
-CSS
-Google Fonts
-Font Awesome
-Balsamiq Wireframes
+### HTML 5 and CSS
+HTML5 (HyperText Markup Language) and CSS (Cascading Style Sheets) are the fundamental web development languages used to structure and style the web content, ensuring a visually appealing and well-organized website.
+
+### Google Fonts
+Google Fonts is a library of free and customisable fonts that enhances the visual aesthetics of a website, allowing for a diverse selection of typography options to suit the project's design- this was used for the logo and h2 elements.
+
+### Google Images
+Google Images served as a valuable resource for obtaining high-quality and relevant images, contributing to the visual appeal and storytelling aspects of the Apex Adventures website. All images from the webiste were taken from Google Images.
+
+### Font Awesome
+ Font Awesome provides a comprehensive collection of scalable vector icons, enhancing the user interface with visually appealing and easily customisable icons for a polished look. The icons that are seen before the h2 elements and in the footer are from Font Awesome.
+
+### Balsamiq Wireframes
+### Gitpod
+### Github
 
 ## Testing
 
