@@ -37,9 +37,8 @@ header a {
 }
 
 /* font-size code from https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.*/
-#logo,
-h2 {
-    font-size: 2em;
+#logo {
+    font-size: 5em;
     padding: 10px 10px;
     text-align: center;
     text-shadow: 2px 2px 5px #c6c4c4;
@@ -47,7 +46,22 @@ h2 {
     text-transform: uppercase;
 }
 
-/* h2 elements shrink when screen size gets smaller */
+@media screen and (max-width: 550px) {
+    #logo {
+        font-size: 2em;
+        }
+    }
+
+
+h2 {
+    font-size: 3em;
+    padding: 10px 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px #c6c4c4;
+    font-family: 'Chelsea Market', sans-serif;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 480px) {
 h2 {
     font-size: 22px
