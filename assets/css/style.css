@@ -51,7 +51,6 @@ header a {
         }
     }
 
-
 h2 {
     font-size: 3em;
     padding: 10px 10px;
@@ -159,15 +158,21 @@ figure.item {
     min-width: 250px;
 }
 
+@media only screen and (max-width: 400px) {
+    figure.item {
+        text-align: center;
+    }
+}
+
 .item img {
     width: 100%;
     height: auto;
     box-shadow: 0 0 5px 0 #3c3939;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 360px) {
     .item img {
-        width: 200px;
+        width: 220px;
     }
 }
 
