@@ -106,6 +106,9 @@ Balsamiq Wireframes is a prototyping tool that facilitates the creation of mocku
 ### Gitpod and Github:
 Gitpod, coupled with GitHub, forms a powerful version control and collaboration platform. Gitpod is an online IDE (Integrated Development Environment), while GitHub allows for collaborative coding, version tracking, and project management. These tools promote efficient development workflows, collaboration, and version control, ensuring a robust and well-maintained codebase for the Apex Adventures website.
 
+### Lighthouse
+To ensure optimal performance and user experience, I utilized the Lighthouse tool in Google Chrome to conduct a comprehensive performance analysis of the Apex Adventures website. Lighthouse evaluates various aspects, including page speed, accessibility, SEO, and best practices, providing invaluable insights into potential optimizations. The tool not only identifies areas for improvement but also aligns with our commitment to delivering a fast, accessible, and user-friendly website. Leveraging the Lighthouse tool has been integral in refining the performance of the Apex Adventures platform, ensuring it meets high standards and provides an exceptional online experience for users.
+
 ## Testing
 
 I've rigorously tested each facet of the Apex Adventures website to ensure a robust and user-friendly platform. The interactive nature of the navigation bar has been thoroughly examined, providing seamless transitions between pages such as Home, Gallery, and Contact. The footer maintains its consistency across all pages, featuring dynamically resizing social media links to prevent stacking on smaller screens, enhancing both aesthetics and functionality.
@@ -157,6 +160,27 @@ The absence of bugs underscores the commitment to quality and precision in the d
 The commitment to a bug-free platform aligns with our dedication to providing users with a reliable, enjoyable, and hassle-free experience as they embark on their shark cage diving adventure. We will continue to uphold these high standards to ensure Apex Adventures remains a seamless and trustworthy destination for all users.
 
 ## Deployment
+
+The deployment process for the Apex Adventures website on GitHub Pages followed these step-by-step instructions:
+
+1. Access the GitHub repository containing the [ApexAdventures](https://github.com/fraserivison/apex-adventures) project.
+
+2. Navigate to Settings which is located at the far right of the toolbar and click on it.
+
+3. On the left hand side there is an option called Pages.
+
+4. Once that has been clicked on there is a section that says Branch with a button underneath that will need to be set to Main and Route.
+
+5. Once the Master Branch has been selected, the GitHub Pages section will automatically refresh, indicating the ongoing deployment process.
+
+6. Upon successful deployment, a detailed ribbon display will appear, signaling that the Apex Adventures website is now live on GitHub Pages.
+
+7. The live link to the deployed website can be accessed at the GitHub Pages URL, which will be displayed in the GitHub Pages section at the top of the screen. The live link for Apex Adventures can be found [here](https://fraserivison.github.io/apex-adventures/).
+
+This streamlined deployment process ensures that the latest version of the Apex Adventures website is consistently available on GitHub Pages, providing a public-facing link for users to explore.
+
+
+
 The site was deployed to GitHub pages. I used Gitpod as the development environment and commmited all the changes in thte terminal. The steps to deploy the site are as follows:
 
 Live link to site:(https://fraserivison.github.io/apex-adventures/)
