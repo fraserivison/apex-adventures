@@ -170,15 +170,15 @@ figure.item {
 }
 
 .item img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 210px;
     box-shadow: 0 0 5px 0 #3c3939;
 }
 
 @media only screen and (max-width: 400px) {
     .item img {
-        width: 200px;
-        height: 150px;
+        width: 150px;
+        height: 100px;
     }
 }
 
