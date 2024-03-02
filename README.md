@@ -20,6 +20,8 @@ The platform was designed to target adrenaline enthusiasts and those seeking uni
     - [Validator Testing](#validator-testing)
     - [Performance](#performance)
     - [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 # User Experience (UX)
 
@@ -211,6 +213,15 @@ By following these steps, developers can easily download the Apex Adventures rep
 
 ## Credits
 
+### Content:
+The information about the company's background, expertise, and passion for marine life was generated internally and is completely fictional.
+
+### Media:
+The media used in the Apex Adventures website was sourced from various platforms. Images related to shark cage diving were obtained from google images with a focus on high-quality visuals to enhance the overall aesthetic of the site. Additionally, icons from Font Awesome were incorporated to provide scalable vector graphics, contributing to a polished and visually appealing user interface.
+
+### Extra Help:
+Throughout the development process, various resources, including online tutorials, documentation, and community forums, were consulted for guidance and problem-solving. Specifically, platforms such as Stack Overflow, W3Schools, and the official documentation for HTML and CSS played a crucial role in providing insights and solutions to specific coding challenges. The use of these resources ensured the adherence to best practices and industry standards, contributing to the overall success of the Apex Adventures website.
+
 Favicon: [Favicon](https://favicon.io/emoji-favicons/shark)
 
 Main Fonts: [FontAwesome](https://fontawesome.com/kits)
@@ -235,3 +246,4 @@ Footer: [StackOverFlow](https://stackoverflow.com/questions/39337956/centering-s
 README.md Template: [README.md](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md)
 
 404.html Template: [GeeksForGeeks](https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css/)
+
