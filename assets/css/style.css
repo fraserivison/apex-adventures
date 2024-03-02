@@ -165,12 +165,12 @@ figure.item {
 }
 
 .item img {
-    width: 100%;
+    width: 270px;
     height: auto;
     box-shadow: 0 0 5px 0 #3c3939;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 380px) {
     .item img {
         width: 170px;
         height: 130px;
@@ -471,7 +471,8 @@ footer {
     text-decoration: none; 
     color: white;
 }
-    
+
+
       
     
       
