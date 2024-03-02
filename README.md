@@ -7,14 +7,26 @@ The platform was designed to target adrenaline enthusiasts and those seeking uni
 
 ![Viewports](md_images/all-viewports.png)
 
-## External user’s goal
+# Table of contents
+- [User Experience (UX)](#ux)
+    - [External User’s Goal](#external-users-goal)
+    - [Site Owner's Goal](#site-owners-goal)
+    - [Structure](#structure)
+- [Features](#features)
+- [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+
+# User Experience (UX)
+
+## External User’s Goal
 The site's users are adventure enthusiasts and shark enthusiasts interested in information and resources related to great white shark cage diving experiences, including locations, images/testimonials and educational content.
 
-## Site owner's goal
+## Site Owner's Goal
 The goal of the site is to establish an immersive and dependable platform with educational content and testimonials from previous customers. This platform aims to provide users with information about great white shark cage diving and how to book a tour.
 
-## Structure 
-In the initial stages of crafting the Apex Adventures website, I employed the versatile program Balsamiq to create comprehensive wireframes for both desktop and mobile versions. Balsamiq's user-friendly interface and intuitive features facilitated the visualization of the website's layout, ensuring a clear representation of the placement and functionality of each element. This invaluable tool enabled me to map out the user journey, test different design concepts, and refine the overall user experience before diving into the full-scale development. The use of Balsamiq played a pivotal role in streamlining the design process, ensuring a cohesive and user-centric website that seamlessly translates across both desktop and mobile platforms.
+## Structure
+In the initial stages of crafting the Apex Adventures website, I employed the versatile program <b>Balsamiq Wireframes</b> to create comprehensive wireframes for both desktop and mobile versions. Balsamiq's user-friendly interface and intuitive features facilitated the visualization of the website's layout, ensuring a clear representation of the placement and functionality of each element. This invaluable tool enabled me to map out the user journey, test different design concepts, and refine the overall user experience before diving into the full-scale development. The use of Balsamiq played a pivotal role in streamlining the design process, ensuring a cohesive and user-centric website that seamlessly translates across both desktop and mobile platforms.
 
 ![Desktop Wireframe](md_images/desktop-wireframe.png)
 ![Mobile Wireframe](md_images/mobile-wireframe.png)
@@ -72,6 +84,7 @@ Google Images served as a valuable resource for obtaining high-quality and relev
  Font Awesome provides a comprehensive collection of scalable vector icons, enhancing the user interface with visually appealing and easily customisable icons for a polished look. The icons that are seen before the h2 elements and in the footer are from Font Awesome.
 
 ### Balsamiq Wireframes
+Balsamiq Wireframes is a prototyping tool that facilitates the creation of mockups and wireframes, allowing for the visualisation and testing of website layouts before full-scale development, contributing to efficient and effective design planning. The wireframes that are seen in the 
 ### Gitpod
 ### Github
 
