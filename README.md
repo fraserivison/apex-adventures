@@ -54,6 +54,8 @@ Main fonts:
 ### Apex Adventures Logo:
 The clickable Apex Adventures logo serves as a convenient route back to the home page, ensuring users have quick access to the central hub of information. This feature enhances user navigation, providing a seamless and user-friendly experience for those exploring our shark cage diving offerings.
 
+![Logo, Nav Bar and Who Are We](md_images/who-are-we.jpg)
+
 ### Navigation Bar:
 Our full responsive navigation bar is a key feature present on all three pages – Home, Gallery, and Contact. With identical layouts across pages, users can effortlessly navigate between them on any device, eliminating the need to revert to the 'back' button. This streamlined design enhances user experience, allowing them to easily find the information they seek about our shark cage diving adventures.
 
@@ -63,20 +65,33 @@ The 'Who Are We' section offers customers insights into the essence of Apex Adve
 ### Meet the Team Section:
 Introducing our core crew, the 'Meet the Team' section provides a personal touch to the Apex Adventures experience. By familiarising users with the individuals behind the scenes, we aim to build a connection and showcase the expertise and passion that fuels our shark cage diving expeditions.
 
-### Our Promise Section:
-The 'Our Promise' section encapsulates our commitment to customer care, safety, and the transformative shark cage diving experience. This quote from our team reinforces the values that define Apex Adventures, assuring users of our dedication to their satisfaction and safety.
+![Meet The Team](md_images/meet-the-team.jpg)
 
 ### Gallery Page with Customer Reviews:
 The responsive design of our Gallery page provides an engaging visual experience of previous customers in the water with te sharks. Customer reviews following the gallery enhance credibility and build trust, assuring potential adventurers of the exciting and safe experiences others have had with Apex Adventures.
 
+![Gallery and Customer Reviews](md_images/gallery-reviews.jpg)
+
+### Our Promise Section:
+The 'Our Promise' section encapsulates our commitment to customer care, safety, and the transformative shark cage diving experience. This quote from our team reinforces the values that define Apex Adventures, assuring users of our dedication to their satisfaction and safety.
+
 ### Call to Action:
 Strategically placed at the bottom of the Home and Gallery pages, the consistent call to action serves as a shortcut redirecting users to the booking page. This user-friendly feature ensures a seamless transition for those ready to embark on their shark cage diving adventure.
+
+![Footer and Call to Action](md_images/footer.png)
 
 ### Footer:
 Our footer, present on each page, includes links to our social media platforms. This feature facilitates social engagement and interaction, keeping our audience connected with the latest updates and offerings from Apex Adventures.
 
+![Top of Booking Page](md_images/contact.jpg)
+
 ### Booking Page with Map:
 The Booking page features a section to easily make a booking request and a map showcasing the location of our HQ, enhancing transparency for customers.  This streamlined process ensures a smooth and hassle-free booking experience, seamlessly integrating the map with the booking form.
+
+![Booking Page with Map](md_images/book-a-trip.jpg)
+
+
+
 
 ## Features Left to Implement
 
