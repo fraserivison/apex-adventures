@@ -153,9 +153,14 @@ figure.item {
     vertical-align: top;
     display: inline-block;
     text-align: left;
-    width: 25%;
     min-height: 200px;
-    min-width: 250px;
+    min-width: 230px;
+}
+
+@media only screen and (min-width: 400px) {
+    figure.item {
+        width: 25%
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -165,21 +170,22 @@ figure.item {
 }
 
 .item img {
-    width: 270px;
+    width: 100%;
     height: auto;
     box-shadow: 0 0 5px 0 #3c3939;
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
     .item img {
-        width: 170px;
+        width: 70%;
         height: 130px;
     }
 }
 
 .caption {
     display: block;
-    padding: 20px 10px 40px 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 300px) {
