@@ -163,15 +163,15 @@ The commitment to a bug-free platform aligns with our dedication to providing us
 
 The deployment process for the Apex Adventures website on GitHub Pages followed these step-by-step instructions:
 
-1. Access the GitHub repository containing the [ApexAdventures](https://github.com/fraserivison/apex-adventures) project.
+1. Access the `GitHub` repository containing the [ApexAdventures](https://github.com/fraserivison/apex-adventures) project.
 
-2. Navigate to Settings which is located at the far right of the toolbar and click on it.
+2. Navigate to `Settings` which is located at the far right of the toolbar and click on it.
 
-3. On the left hand side there is an option called Pages.
+3. On the left hand side there is an option called `Pages`.
 
-4. Once that has been clicked on there is a section that says Branch with a button underneath that will need to be set to Main and Route.
+4. Once that has been clicked on there is a section that says `Branch` with a button underneath that will need to be set to `Main` and `Route`.
 
-5. Once the Master Branch has been selected, the GitHub Pages section will automatically refresh, indicating the ongoing deployment process.
+5. Once that has been selected, the `GitHub Pages` section will automatically refresh, indicating the ongoing deployment process.
 
 6. Upon successful deployment, a detailed ribbon display will appear, signaling that the Apex Adventures website is now live on GitHub Pages.
 
@@ -179,33 +179,44 @@ The deployment process for the Apex Adventures website on GitHub Pages followed 
 
 This streamlined deployment process ensures that the latest version of the Apex Adventures website is consistently available on GitHub Pages, providing a public-facing link for users to explore.
 
-
-
 The site was deployed to GitHub pages. I used Gitpod as the development environment and commmited all the changes in thte terminal. The steps to deploy the site are as follows:
 
-Live link to site:(https://fraserivison.github.io/apex-adventures/)
+To run the Apex Adventures website locally, follow these additional steps:
+
+1. Log in to `GitHub` and navigate to the Apex Adventures repository.
+
+2. Click on the `Code` button and select `Download ZIP` to download the entire repository as a compressed file.
+
+3. Once the download is complete, extract the `ZIP` file to access the project files.
+
+4. Utilise the extracted files in your preferred local development environment to explore and make modifications as needed.
+
+By following these steps, developers can easily download the Apex Adventures repository, extract the project files, and run the website in their local environment for testing, debugging, or further development. This process facilitates a seamless transition between local development and GitHub Pages deployment, ensuring a smooth and efficient workflow.
 
 
 ## Credits
 
-Footer [StackOverFlow] (https://stackoverflow.com/questions/39337956/centering-social-media-icons-in-footer-of-website#:~:text=page%2Dfooter%20add%20a%20property,the%20middle%20of%20the%20element.)
+Favicon: [Favicon](https://favicon.io/emoji-favicons/shark)
 
-The icons in the footer are from [FontAwesome] (https://fontawesome.com/kits)
+Main Fonts: [FontAwesome](https://fontawesome.com/kits)
 
-Responsive Font Size [MakeUseOf] (https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.)
-
-Gallery [SheCodes] (https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes.) and [W3Schools] (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover)
-
-Dont Take Our Word For It [W3Schools] (https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive)
-[DEV](https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b)
+Responsive Font Size: [MakeUseOf](https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.)
 
 Navigation Bar [CodePen](https://codepen.io/maheshambure21/pen/QwXaRw)
 
-Meet the team in index.html [StackOverflow](https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css)
+Gallery (gallery.html): [SheCodes](https://www.shecodes.io/athena/10013-how-to-make-image-grids-responsive-with-css#:~:text=To%20create%20a%20responsive%20image,adjusting%20to%20different%20screen%20sizes.) and [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover)
 
-Booking Form [Programiz] (https://www.programiz.com/css/form-styling) [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
-
-Map [HubSpot](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
+Dont Take Our Word For It (gallery.html): [W3Schools](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive) and [DEV](https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b)
 
 
-404.html [GeeksForGeeks](https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css/)
+Meet The Team (index.html): [StackOverflow](https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css)
+
+Booking Form (contact.html): [Programiz](https://www.programiz.com/css/form-styling) and [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option)
+
+Map (contact.html): [HubSpot](https://blog.hubspot.com/website/how-to-embed-google-map-in-html)
+
+Footer: [StackOverFlow](https://stackoverflow.com/questions/39337956/centering-social-media-icons-in-footer-of-website#:~:text=page%2Dfooter%20add%20a%20property,the%20middle%20of%20the%20element.)
+
+README.md Template: [README.md](https://github.com/marcin-kli/MP1/blob/Milestone-Projects/README.md)
+
+404.html Template: [GeeksForGeeks](https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css/)
