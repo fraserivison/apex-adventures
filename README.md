@@ -18,6 +18,8 @@ The platform was designed to target adrenaline enthusiasts and those seeking uni
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
     - [Validator Testing](#validator-testing)
+    - [Performance](#performance)
+    - [Bugs](#bugs)
 
 # User Experience (UX)
 
@@ -99,7 +101,8 @@ Google Images served as a valuable resource for obtaining high-quality and relev
  Font Awesome provides a comprehensive collection of scalable vector icons, enhancing the user interface with visually appealing and easily customisable icons for a polished look. The icons that are seen before the h2 elements and in the footer are from Font Awesome.
 
 ### Balsamiq Wireframes:
-Balsamiq Wireframes is a prototyping tool that facilitates the creation of mockups and wireframes, allowing for the visualisation and testing of website layouts before full-scale development, contributing to efficient and effective design planning. The wireframes that are seen in the 
+Balsamiq Wireframes is a prototyping tool that facilitates the creation of mockups and wireframes, allowing for the visualisation and testing of website layouts before full-scale development, contributing to efficient and effective design planning. The wireframes that are seen in the [Structure](#structure) section were made in Balsamiq Wireframes.
+
 ### Gitpod and Github:
 Gitpod, coupled with GitHub, forms a powerful version control and collaboration platform. Gitpod is an online IDE (Integrated Development Environment), while GitHub allows for collaborative coding, version tracking, and project management. These tools promote efficient development workflows, collaboration, and version control, ensuring a robust and well-maintained codebase for the Apex Adventures website.
 
@@ -127,6 +130,22 @@ I am pleased to report that during the development of the Apex Adventures websit
 ### CSS:
 ![CSS Validator Test](md_images/css-validation.png)
 
+## Performance
+
+To ensure optimal performance and user experience, I utilized the Lighthouse tool in Google Chrome to conduct a comprehensive performance analysis of the Apex Adventures website. Lighthouse evaluates various aspects, including page speed, accessibility, SEO, and best practices, providing invaluable insights into potential optimizations. The tool not only identifies areas for improvement but also aligns with our commitment to delivering a fast, accessible, and user-friendly website. Leveraging the Lighthouse tool has been integral in refining the performance of the Apex Adventures platform, ensuring it meets high standards and provides an exceptional online experience for users.
+
+### Desktop:
+![Lighthouse Performance Testing Desktop](md_images/desktop-test-1.jpg)
+
+### Mobile:
+![Lighthouse Performance Testing Mobile](md_images/mobile-test-1.jpg)
+![Lighthouse Performance Testing Desktop](md_images/mobile-test-issue.jpg)
+
+One of the issues the came up was that the images in the Meet The Team section did not have an explicit height and width set. After setting the height and width and adding a media query to make the image repsonsive to a smaller screenize, the score improved:
+
+![Lighthouse Performance Testing Mobile](md_images/mobile-test-fix.jpg)
+
+While the Apex Adventures website has performed well in various aspects, there are opportunities for future enhancements to improve overall performance. Issues such as eliminating render-blocking resources, properly sizing images, and serving them in next-gen formats can significantly reduce page load times, contributing to a faster and more efficient user experience. Addressing concerns related to the Largest Contentful Paint element, enabling text compression, and efficiently encoding images will further optimize the website's performance, enhancing its responsiveness and speed. These potential improvements align with our commitment to continuous refinement, ensuring that Apex Adventures remains at the forefront of delivering a seamless and high-quality online experience for users.
 
 
 
