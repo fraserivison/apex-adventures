@@ -39,7 +39,6 @@ header a {
 /* font-size code from https://www.makeuseof.com/how-to-create-responsive-typography-with-css/#:~:text=For%20the%20heading%20%E2%80%9Ch1%E2%80%9D%20the,responsive%20to%20different%20screen%20sizes.*/
 #logo {
     font-size: 5em;
-    padding: 10px 10px;
     text-align: center;
     text-shadow: 2px 2px 5px #c6c4c4;
     font-family: 'Chelsea Market', sans-serif;
