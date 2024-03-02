@@ -17,6 +17,7 @@ The platform was designed to target adrenaline enthusiasts and those seeking uni
 - [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
+    - [Validator Testing](#validator-testing)
 
 # User Experience (UX)
 

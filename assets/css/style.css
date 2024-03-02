@@ -172,15 +172,14 @@ figure.item {
 
 @media only screen and (max-width: 360px) {
     .item img {
-        width: 220px;
+        width: 170px;
+        height: 130px;
     }
 }
 
 .caption {
-    /* Make the caption a block so it occupies its own line. */
     display: block;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding: 20px 10px 40px 10px;
 }
 
 @media only screen and (max-width: 300px) {
