@@ -14,7 +14,10 @@ The site's users are adventure enthusiasts and shark enthusiasts interested in i
 The goal of the site is to establish an immersive and dependable platform with educational content and testimonials from previous customers. This platform aims to provide users with information about great white shark cage diving and how to book a tour.
 
 ## Structure 
-Wireframes
+In the initial stages of crafting the Apex Adventures website, I employed the versatile program Balsamiq to create comprehensive wireframes for both desktop and mobile versions. Balsamiq's user-friendly interface and intuitive features facilitated the visualization of the website's layout, ensuring a clear representation of the placement and functionality of each element. This invaluable tool enabled me to map out the user journey, test different design concepts, and refine the overall user experience before diving into the full-scale development. The use of Balsamiq played a pivotal role in streamlining the design process, ensuring a cohesive and user-centric website that seamlessly translates across both desktop and mobile platforms.
+
+![Desktop Wireframe](md_images/desktop-wireframe.png)
+![Mobile Wireframe](md_images/mobile-wireframe.png)
 
 
 ## Features
